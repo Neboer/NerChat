@@ -1,0 +1,4 @@
+.vscode
+node_modules
+src/.vuepress/.*
+src/.vuepress/public

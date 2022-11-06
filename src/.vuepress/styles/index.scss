@@ -1,0 +1,18 @@
+// place your custom styles here
+.theme-hope-content:not(.custom) {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 0 2.5rem
+}
+
+.icon {
+    min-width: 1.5em;
+}
+
+.fa-matrix:after {
+    content: "good"
+}
+
+img {
+    max-width: 100%;
+}
