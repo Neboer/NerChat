@@ -10,9 +10,9 @@ export default {
         },
         {
             icon: "hand-point-right",
-            text: "使用",
-            prefix: "usage/",
-            link: "usage/",
+            text: "基本操作",
+            prefix: "basic/",
+            link: "basic/",
             children: "structure",
         },
         {
