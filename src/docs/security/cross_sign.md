@@ -3,9 +3,9 @@ title: 交叉认证
 order: 3
 ---
 
-如果您对非对称加密有所耳闻，那么您一定知道非对称加密难以抵抗“中间人攻击”。Matrix也不例外暴露在这种攻击的威胁下。在TLS中，解决中间人攻击的措施和手段是“公钥签名”，但Matrix协议中显然不能这么做。Matrix的信任模型中，您永远不能相信为您提供服务的服务器是可信的，如果服务器对您的客户端进行中间人攻击，可以轻易的介入您和对方的加密聊天，获得所有数据。
+如果您对非对称加密有所耳闻，那么您一定知道非对称加密难以抵抗“中间人攻击”。Matrix也不例外暴露在这种攻击的威胁下。在TLS中，解决中间人攻击的措施和手段是由权威的第三方进行“公钥签名”，但Matrix协议中显然不能这么做。Matrix的信任模型中，您永远不能相信为您提供服务的服务器是可信的，如果服务器对您的客户端进行中间人攻击，可以轻易的介入您和对方的加密聊天，获得所有数据。
 
-为了确保对方发送过来的公钥完全来源于对方而不是中间人，你们需要一个额外的、不受中间人控制的受信任的环境来对比密钥。在Matrix中，你们可以通过在其他渠道里比对在双方生成的Emoji图片的顺序来完成整个确认过程。如果双方生成的图片顺序相同，就说明双方都是可以信任的，那么双方的设备就会互相为对方的密钥签名，承认其合法性。
+为了确保对方发送过来的公钥完全来源于对方而不是中间人，你们需要一个额外的、不受中间人控制的受信任的环境来对比密钥，比如QQ/微信聊天（这些渠道是否安全无所谓，只要不受Matrix系统管理员控制即可）。在Matrix中，你们可以通过在其他渠道里比对在双方生成的Emoji图片的顺序来完成整个确认过程。如果双方生成的图片顺序相同，就说明双方都是可以信任的，那么双方的设备就会互相为对方的密钥签名，承认其合法性。
 
 ## 密钥签名
 
@@ -23,27 +23,27 @@ NerChat!的服务端采用synapse部署，保证不会进行中间人攻击，�
 
 在你和要验证的用户的聊天中点击那个人的头像，可以看到他的所有设备及其验证情况。标记为绿色的设备是经过验证的设备，标记为灰色的是没有经过您的但是经过其他人验证的设备，标记为红色的是没有经过任何人验证的设备，是不可信任的设备。
 
-- 您可以点击聊天室的“验证”按钮，来直接在会话中验证对方的设备，这是推荐的方法。
+- 您可以点击聊天室的“验证”按钮，申请进行迪菲-赫尔曼密钥交换，并基于此次交换的结果重新开始双棘轮加密过程，您之前的密钥依然会保存在密码库中，作为解密历史消息的手段。
 
     1. 点击聊天信息按钮，在菜单里点击“验证”。
 
-        ![](/nerchatguide/web/start_verify.png)
+        ![](../../nerchatguide/web/start_verify.png)
     
     2. 点击“开始验证”开始两个人的验证过程。您此时最好已经做好和对方用另一种方式聊天的准备。
 
-        ![](/nerchatguide/web/auth_request.png)
+        ![](../../nerchatguide/web/auth_request.png)
 
-        ![](/nerchatguide/web/auth_request_chat.png)
+        ![](../../nerchatguide/web/auth_request_chat.png)
 
         您可以“接受”弹出的“已请求验证”通知，也可以点击聊天记录里出现的“想要验证”消息的“接受“按钮来接受验证，两种方法是一样的。
 
     3. 两人中的任何一方都可以主动点击“通过表情符号验证”按钮发起验证。
 
-        ![](/nerchatguide/web/auth_via_emoji.png)
+        ![](../../nerchatguide/web/auth_via_emoji.png)
     
     4. 通过可靠渠道比对二人生成的emoji表情序列，看看他们是否相同。如果相同，则说明会话安全，没有中间人，验证通过，可以用这个临时建立的可信加密通道交换公钥了。如果不同……放心不可能不同的。NerChat!绝对安全，同时我们对您的加密聊天内容完全不感兴趣，不会进行中间人攻击，您永远可以信任我们的服务器。
 
-        ![](/nerchatguide/web/emoji_compare.png)
+        ![](../../nerchatguide/web/emoji_compare.png)
 
     5. 两人均点击“他们匹配”之后，整个验证流程就结束了。
 
@@ -53,9 +53,9 @@ NerChat!的服务端采用synapse部署，保证不会进行中间人攻击，�
 
     1. 点击聊天信息按钮，在菜单里点击对方的头像，在对方的信息页面里点击“x个会话”，展开设备列表。选择一个灰色或红色的设备来开始验证。
 
-        ![](/nerchatguide/web/start_device_verify.png)
+        ![](../../nerchatguide/web/start_device_verify.png)
 
-        ![](/nerchatguide/web/choose_device.png)
+        ![](../../nerchatguide/web/choose_device.png)
 
     2. 在弹出的对话中选择“以文本形式验证”或“以emoji形式验证”二者的原理相同，不过比起emoji，文本在互联网上的传输更加容易一些。
 
@@ -65,47 +65,47 @@ NerChat!的服务端采用synapse部署，保证不会进行中间人攻击，�
 
 1. 在聊天列表中，打开与一个人的聊天对话窗口，点击顶部头像栏，打开聊天信息窗口。
 
-    ![](/nerchatguide/mobile/1_chat.jpg)
+    ![](../../nerchatguide/mobile/1_chat.jpg)
     
 
 2. 下拉菜单，找到“2人”选项，点击查看房间的全部成员。
 
-    ![](/nerchatguide/mobile/2_chat_details.jpg)
+    ![](../../nerchatguide/mobile/2_chat_details.jpg)
 
 3. 在成员中点击你想要验证的人，打开他的个人信息详情页面。
 
-    ![](/nerchatguide/mobile/3_room_members.jpg)
-    ![](/nerchatguide/mobile/4_user_details.jpg)
+    ![](../../nerchatguide/mobile/3_room_members.jpg)
+    ![](../../nerchatguide/mobile/4_user_details.jpg)
 
 4. 点击“验证”按钮，开始你们之间的验证流程。
 
-    ![](/nerchatguide/mobile/5_start_verify.jpg)
+    ![](../../nerchatguide/mobile/5_start_verify.jpg)
 
     此时，另一个人会在聊天栏里看到验证请求，同时还会收到消息推送。
 
-    ![](/nerchatguide/mobile/o1_received_verify_request.jpg)
+    ![](../../nerchatguide/mobile/o1_received_verify_request.jpg)
 
     另一个人点击“接受”。
 
 5. 选择一种验证方式，这里选择emoji方法。当然您也可以点击二维码验证方法，去拍摄另一人设备上出现的二维码。
 
-    ![](/nerchatguide/mobile/o2_choose_verify_metohd.jpg)
+    ![](../../nerchatguide/mobile/o2_choose_verify_method.jpg)
 
     点击emoji方法之后，会弹出一些emoji图标，请在一个受信任的环境中和对方比对你们设备上的emoji符号是否一致。
 
-    ![](/nerchatguide/mobile/6_emoji_verify.jpg)
-    ![](/nerchatguide/mobile/o3_emoji.jpg)
+    ![](../../nerchatguide/mobile/6_emoji_verify.jpg)
+    ![](../../nerchatguide/mobile/o3_emoji.jpg)
 
 6. 如果emoji序列相同，则说明会话安全，没有中间人，验证通过，可以用这个临时建立的可信加密通道交换公钥了。如果不同……放心不可能不同的。NerChat!绝对安全，同时我们对您的加密聊天内容完全不感兴趣，不会进行中间人攻击，您永远可以信任我们的服务器。
 
     当emoji验证完成之后，点击“匹配”，完成验证过程。
 
-    ![](/nerchatguide/mobile/7_verify_complete_shield.jpg)
+    ![](../../nerchatguide/mobile/7_verify_complete_shield.jpg)
 
 7. 验证完成之后，您可以看到对方的设备图标已经变成了绿色的盾牌，说明对方的现在的设备公钥包含了您自己的签名，是完全可以信任的。现在，一个可靠的加密聊天通道已经建立，你们可以进行完全可信的安全加密聊天过程了。
 
-    ![](/nerchatguide/mobile/8_user_details_verified.jpg)
-    ![](/nerchatguide/mobile/9_room_members_verified.jpg)
+    ![](../../nerchatguide/mobile/8_user_details_verified.jpg)
+    ![](../../nerchatguide/mobile/9_room_members_verified.jpg)
 
 :::
 

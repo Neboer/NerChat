@@ -1,5 +1,6 @@
 ---
 title: 客户端
+next: nelement
 ---
 
 你可以用桌面端浏览器使用NerChat!的Web版本chat.neboer.site直接连接NerChat!，或者使用NerChat!的官方Android软件Nelement登录NerChat!.这两种方法是推荐的操作，不需要您做任何多余的操作，就像国产聊天软件一样开箱即用，非常方便。
@@ -16,14 +17,14 @@ NerChat!的Web端仅支持桌面浏览器使用，移动端访问NerChat!请使�
 
 同时，你也可以用NerChat!发布的客户端连接任何支持Matrix协议的服务器，当然了，包括matrix.org在内的一系列网站不可以直接访问。
 
-根据你所使用的平台点击下面列表中的软件名称，下载对应客户端。
+根据你所使用的平台点击下面列表中的软件名称，下载对应客户端。注意，所有的官方客户端网站均无法直接访问。
 
 | 使用环境            | 推荐客户端  |  官方客户端  |
 | :----:            | :--------: | :--------: |
-|Web                |chat.neboer.site|app.element.io|
-|Windows/Linux/MacOS|  Nelemer   | Element Desktop|
-|Android            |  Nelement    | Element Android |
-|IOS                | -          | Element IOS     |
+|Web                |[chat.neboer.site](https://chat.neboer.site)|[app.element.io](https://app.element.io)|
+|Windows/Linux/MacOS|  [Nelemer](nelemer/)   | [Element Desktop](https://matrix.org/docs/projects/client/element)|
+|Android            |  [Nelement](nelement/)    | [Element Android](https://matrix.org/docs/projects/client/element-android) |
+|IOS                | -          | [Element IOS](https://matrix.org/docs/projects/client/element-ios)     |
 
 在桌面设备上，Web端和桌面端的消息推送是最快的，但是因为要做HTTP轮询请求，比较耗费电量。
 

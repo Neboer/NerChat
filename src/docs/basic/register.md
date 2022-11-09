@@ -31,7 +31,7 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 1. 在您登录NerChat!的官方网站**chat.neboer.site**之后，需要等待页面加载完成，之后点击“创建账户”按钮。
 
-![](/nerchatguide/register_page.png)
+![](../../nerchatguide/register_page.png)
 
 2. 然后在窗口中输入您想要注册的用户名和密码，注意要符合要求。在输入完一遍密码后还需要再输入一次以确认。
 
@@ -41,9 +41,9 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 对于安卓手机，推荐您使用NerChat!推荐的客户端[Nelement](#)。如果您希望使用其他兼容Matrix协议的客户端如Element，请参考[第三方客户端登录指南](#)。
 
-![](/nerchatguide/mobile/open.png)
-![](/nerchatguide/mobile/ask.png)
-![](/nerchatguide/mobile/input_register.png)
+![](../../nerchatguide/mobile/open.png)
+![](../../nerchatguide/mobile/ask.png)
+![](../../nerchatguide/mobile/input_register.png)
 
 1. 在你安装好客户端软件后，打开软件。等待软件加载一段时间之后，进入功能介绍页面。如果您是新用户，请选择“创建账户”。
 
@@ -51,8 +51,8 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 3. 在弹出的“请输入用户名和密码”的窗口里输入您想要注册的用户名和密码，然后点击“下一个”。
 
-![](/nerchatguide/mobile/congrautulation.png)
-![](/nerchatguide/mobile/share_data.png)
+![](../../nerchatguide/mobile/congrautulation.png)
+![](../../nerchatguide/mobile/share_data.png)
 
 4. 当您注册完成后，会弹出“恭喜，您的用户已创建”提示。您可以选择“个性化”来编辑您的头像、昵称等信息，也可以选择“带我回家”来直接显示软件的主页。
 

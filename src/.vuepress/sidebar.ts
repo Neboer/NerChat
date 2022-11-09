@@ -9,17 +9,17 @@ export default {
             children: "structure",
         },
         {
-            icon: "hand-point-right",
-            text: "基本操作",
-            prefix: "basic/",
-            link: "basic/",
-            children: "structure",
-        },
-        {
             icon: "tablet-screen-button",
             text: "客户端",
             prefix: "client/",
             link: "client/",
+            children: "structure",
+        },
+        {
+            icon: "hand-point-right",
+            text: "基本操作",
+            prefix: "basic/",
+            link: "basic/",
             children: "structure",
         },
         {

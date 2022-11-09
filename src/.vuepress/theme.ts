@@ -4,13 +4,13 @@ import sidebar_config from "./sidebar"
 
 
 export default hopeTheme({
-  hostname: "https://localhost",
+  hostname: "https://www.neboer.site",
 
-  iconAssets: "fontawesome",
+  iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.min.js",
+  // iconAssets: "fontawesome",
+  iconPrefix: "fa fa-",
 
   logo: "/logo.svg",
-
-  docsDir: "demo/theme-docs/src",
 
   pageInfo: ["Original", "Date", "Category"],
 
@@ -19,15 +19,15 @@ export default hopeTheme({
       // navbar
       navbar: navbar([
         "/",
-        { text: "文档", icon: "file", link: "/docs/" },
-        { text: "下载", icon: "download", link: "/download/" },
+        { text: "文档", icon: "file", link: "/docs/" }
       ]),
       // sidebar
       sidebar: sidebar(sidebar_config),
       displayFooter: false,
-    },
-
+    }
   },
+  
+  backToTop: false,
 
   plugins: {
     // Disable features you don’t want here
@@ -69,6 +69,6 @@ export default hopeTheme({
       tabs: true,
       vPre: false,
       vuePlayground: false,
-    },
-  },
+    }
+  }
 });

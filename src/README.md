@@ -4,17 +4,20 @@ icon: home
 title: NerChat!
 heroImage: /herologo.svg
 heroText: NerChat!——开源IM
-tagline: 国内可用的开源软件Matrix的部署实例
+tagline: 一个国内的开源即时聊天Matrix服务器！
 actions:
-  - text: 立即加入
-    link: chat.neboer.site
+  - text: 立即加入！
+    link: https://chat.neboer.site/
     type: primary
+    icon: door-open
 
   - text: 阅读文档
     link: /docs/
+    icon: book
 
-  - text: 软件下载
-    link: /download
+  - text: 安卓应用
+    link: /docs/client/nelement/
+    icon: android fa-brands
 
 features:
   - title: 开源
@@ -43,6 +46,6 @@ features:
     details: NerChat!兼容Matrix协议的所有软件，同时NerChat!的软件也兼容其他的Matrix服务器。NerChat!会促进Matrix在中国境内的快速传播。
 
 copyright: false
-footer: Copyright © Neboer with ❤️
+footer: Copyright © Neboer with ❤️ | 由 <a href="https://vuepress-theme-hope.github.io/v2/zh/">vuepress-theme-hope</a> 强力驱动
 ---
 

@@ -2,4 +2,4 @@
 title: 文档
 ---
 
-点击左侧导航
+flag{y0u_f1nD_Th3_Secr3T!}

@@ -1,4 +1,4 @@
 .vscode
 node_modules
-src/.vuepress/.*
-src/.vuepress/public
+src/.vuepress
+!src/.vuepress/*.ts
