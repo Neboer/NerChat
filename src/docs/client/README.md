@@ -22,11 +22,11 @@ NerChat!的Web端仅支持桌面浏览器使用，移动端访问NerChat!请使�
 | 使用环境            | 推荐客户端  |  官方客户端  |
 | :----:            | :--------: | :--------: |
 |Web                |[chat.neboer.site](https://chat.neboer.site)|[app.element.io](https://app.element.io)|
-|Windows/Linux/MacOS|  [Nelemer](nelemer/)   | [Element Desktop](https://matrix.org/docs/projects/client/element)|
-|Android            |  [Nelement](nelement/)    | [Element Android](https://matrix.org/docs/projects/client/element-android) |
-|IOS                | -          | [Element IOS](https://matrix.org/docs/projects/client/element-ios)     |
+|Windows/Linux/MacOS|  Element Desktop   | [Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|
+|Android            |  [Nelement](nelement/)    | [Element Android](https://f-droid.org/packages/im.vector.app/) |
+|IOS                | Element IOS          | [Element IOS](https://matrix.org/docs/projects/client/element-ios)     |
 
-在桌面设备上，Web端和桌面端的消息推送是最快的，但是因为要做HTTP轮询请求，比较耗费电量。
+在桌面设备上，Web端和桌面端的消息推送是最快的。
 
 在移动设备上，推送是通过FCM和APN来实现的，相对来说比较省电，但是推送的抵达会慢一些。在没有Google Play服务的Android设备上可能无法正常收到推送，这是Element的已知问题，Neboer的Nelement并没有解决这一点。如果您非常在意消息推送的即时性，可以打开Element/Nelement客户端的常驻后台选项，同时在电池优化里忽略它们。
 

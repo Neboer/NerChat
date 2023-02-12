@@ -11,18 +11,6 @@ order: 3
 
 :::
 
-## Element Desktop
-
-访问Element官网，填写NerChat!的主服务器地址：[chat.neboer.site](https://chat.neboer.site)，然后就可以登录/注册了。
-
-## Element Desktop
-
-首次打开Element Desktop是比较困难的，因为Element Desktop会默认连接matrix.org，需要一定的手段强制其使用代理才能在中国正常使用这个软件。
-
-打开后，和Element Web的操作完全相同，点击“编辑”打开修改主服务器的窗口，然后添加新的主服务器“chat.neboer.site”。
-
-输入账号密码，点击登录，便完成了整个登录的过程。
-
 ## Element Android
 
 首次打开Element是比较困难的，因为Element会默认连接matrix.org，需要一定的手段强制其使用代理才能在中国正常使用这个软件。
