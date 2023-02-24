@@ -12,7 +12,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  pageInfo: ["Original", "Date", "Category"],
+  pageInfo: ["Original", "Date"],
 
   locales: {
     "/": {

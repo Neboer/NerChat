@@ -35,7 +35,7 @@ NerChat!的官方站点[chat.neboer.site](https://chat.neboer.site)**不支持**
 
 @tab Web
 
-网页端的指南，这包括了包括chat.neboer.site在内的所有Element web实例网站，同时也包括[Nelemer](../client/nelemer)、Element Desktop等多个桌面端应用。
+网页端的指南，这包括了包括chat.neboer.site在内的所有Element web实例网站，同时也包括Element Desktop等多个桌面端应用。
 
 注意，桌面端和网页端在使用体验上几乎没有不同，所以除非有特殊说明，否则二者的教程完全可以通用。
 
