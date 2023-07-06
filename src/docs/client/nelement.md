@@ -22,3 +22,7 @@ Nelement是Neboer在Apache开源协议的许可下基于Element Android的源代
 请前往release页面下载最新版本的软件。
 
 [Github release](https://github.com/Neboer/Nelement/releases)
+
+## 软件更新方法
+
+Nelement新版本发布后，会在服务器通知中统一公布新版本到来的消息。同时，你也可以直接前往GitHub Release页面进行下载。

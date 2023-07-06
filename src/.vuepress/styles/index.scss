@@ -16,3 +16,9 @@
 img {
     max-width: 100%;
 }
+
+@media (pointer:none), (pointer:coarse) {
+    .action-button.primary {
+            display:none!important;
+    }
+}
