@@ -1,5 +1,6 @@
 ---
 title: 关于我们
+order: 1
 ---
 
 本站完全由Neboer基于[vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/zh/)开发，所有文章均为原创，按照CC-BY-2.0协议开放。对本站文章的任何转载均需要注明出处，但不必获得许可。

@@ -10,8 +10,10 @@ let description = 'NerChat!是一个国内部署的开源即时聊天Matrix服�
 let color = '#41b883'
 let author = 'Neboer'
 
+let base_path:`/${string}/` = `/nerchat/`
+
 export default defineUserConfig({
-  base: "/nerchat/",
+  base: base_path,
   // base: "/",
 
 
@@ -24,9 +26,8 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: `/assets/favicon.ico` }],
+    ['link', { rel: 'icon', href: `${base_path}favicon.ico` }],
     ['meta', { name: 'theme-color', content: color }],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png"}],
     ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
     ['meta', { prefix: ogprefix, property: 'og:type', content: 'website' }],
     ['meta', { prefix: ogprefix, property: 'og:url', content: 'https://www.neboer.site/nerchat/' }],

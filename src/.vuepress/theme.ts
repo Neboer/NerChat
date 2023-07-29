@@ -5,14 +5,17 @@ import sidebar_config from "./sidebar"
 
 export default hopeTheme({
   hostname: "https://www.neboer.site",
-
+  author: {
+    name: "Neboer",
+    url: "https://www.neboer.site/"
+  },
   iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.min.js",
   // iconAssets: "fontawesome",
   iconPrefix: "fa fa-",
 
   logo: "/logo.svg",
 
-  pageInfo: ["Original", "Date"],
+  pageInfo: ["Original", "Date", "Author"],
 
   locales: {
     "/": {
@@ -26,7 +29,7 @@ export default hopeTheme({
       displayFooter: false,
     }
   },
-  
+
   backToTop: false,
 
   plugins: {
