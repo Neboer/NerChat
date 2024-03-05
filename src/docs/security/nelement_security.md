@@ -30,7 +30,7 @@ Nelement主要修改了Element Android的四处代码：
     这个修改主要发生在这个[commit](https://github.com/Neboer/Nelement/commit/afc7636f)，这里删除了Element Android中不必要的测试/发布等CI过程，只保留Fdroid Release版本的构建代码。
 
 
-4. Nelement修改了Element Android中配置的默认jitsi语音服务器地址为我们在国内搭建的jitsi服务，让用户可以享受高品质、低延迟的语音通话体验。
+4. Nelement修改了Element Android中配置的默认jitsi会议服务器地址为我们在国内搭建的jitsi服务，让用户可以享受高品质、低延迟的语音通话体验。
 
     参考这个[commit](https://github.com/Neboer/Nelement/commit/5efdb741)。
 
