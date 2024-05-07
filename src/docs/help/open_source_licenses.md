@@ -1,6 +1,6 @@
 ---
 title: 开源协议
-order: 2
+order: 4
 icon: circle-exclamation
 ---
 

@@ -2,7 +2,7 @@
 
 title: 用户协议
 
-order: 3
+order: 6
 
 ---
 

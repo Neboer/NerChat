@@ -1,6 +1,7 @@
 ---
 title: FAQ
 next: about_us
+order: 1
 ---
 
 NerChat!是基于Matrix和Element部署的，虽然二者都已经相当成熟，但是用户在实际使用的时候可能还是会面对一些困惑。如果看完之前文档后依然没有解决，那么这个Q&A部分可能会提供一些帮助。

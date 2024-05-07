@@ -1,7 +1,6 @@
 ---
 title: 隐私政策
-
-order: 4
+order: 5
 ---
 
 导言
