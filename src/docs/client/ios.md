@@ -4,8 +4,6 @@ order: 4
 next: ../basic/
 ---
 
-# 如何在IOS系统手机上下载Element并使用NerChat!
-
 ## 创建或获取美区账号
 
 ### 1. 借用账号
@@ -20,8 +18,8 @@ next: ../basic/
 2. 按照公众号指示，注册并登录平台。
 3. 通过平台购买或兑换美区Apple ID账号和密码。
 
-![第三方平台示例1](../../nerchatguide/1_id.png)
-![第三方平台示例2](../../nerchatguide/2_id.png)
+![第三方平台示例1](../../nerchatguide/mobile/ios/1_id.jpg)
+![第三方平台示例2](../../nerchatguide/mobile/ios/2_id.jpg)
 
 平台内金币非人民币，注册时通常会赠送一定数量，充值费用较低。选择标注为“美区”的游戏进行兑换，获取账号和密码。
 
@@ -50,8 +48,8 @@ next: ../basic/
 3. 选择“退出登录”。
 4. 使用美区账号和密码登录“媒体与购买项目”。
 
-![设置步骤1](../../nerchatguide/1_login.png)
-![设置步骤2](../../nerchatguide/2_login.png)
+![设置步骤1](../../nerchatguide/mobile/ios/1_login.jpg)
+![设置步骤2](../../nerchatguide/mobile/ios/2_login.jpg)
 
 @tab 方法二
 
@@ -62,9 +60,9 @@ next: ../basic/
 3. 滑动至页面底部，选择“退出登录”。
 4. 使用美区账号和密码登录。
 
-![App Store步骤1](../../nerchatguide/3_login.png)
-![App Store步骤2](../../nerchatguide/4_login.png)
-![App Store步骤3](../../nerchatguide/5_login.png)
+![App Store步骤1](../../nerchatguide/mobile/ios/3_login.jpg)
+![App Store步骤2](../../nerchatguide/mobile/ios/4_login.jpg)
+![App Store步骤3](../../nerchatguide/mobile/ios/5_login.jpg)
 
 :::
 
@@ -72,7 +70,7 @@ next: ../basic/
 
 使用美区账号登录后，在App Store中搜索并下载Element应用。确认应用图标如下：
 
-![Element图标](https://element.io/images/logo-mark-primary.svg)
+<img src="https://element.io/images/logo-mark-primary.svg" alt="Element图标" width="96" height="96">
 
 ::: warning
 
