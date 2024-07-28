@@ -1,7 +1,4 @@
-.vscode
 node_modules
-src/.vuepress
-!src/.vuepress/*.ts
-!src/.vuepress/public
-!src/.vuepress/styles
-update_nerchat_doc.ps1
+.vscode
+.vitepress/dist
+.vitepress/cache 
