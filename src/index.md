@@ -20,7 +20,7 @@ hero:
       text: 阅读文档
       link: /api-examples
   image:
-    src: /nerchat_logo.svg
+    src: ./assets/nerchat/nerchat_logo.svg
     alt: VitePress
 
 features:
