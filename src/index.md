@@ -10,15 +10,15 @@ hero:
     - theme: brand
       fontawesome: ['fab', 'chrome']
       text: 桌面Web端
-      link: /markdown-examples
+      link: /docs/client/nelemer.md
     - theme: alt
       fontawesome: ['fas', 'mobile-screen']
       text: 其他客户端
-      link: /api-examples
+      link: /docs/client/others.md
     - theme: alt
       fontawesome: ['far', 'file']
       text: 阅读文档
-      link: /api-examples
+      link: /docs/
   image:
     src: ./assets/nerchat/nerchat_logo.svg
     alt: VitePress

@@ -1,9 +1,7 @@
----
-title: Nelement
-order: 1
----
+# Nelement
 
-![](/nelement_icon.png)
+
+<img src="./nelement_icon.png" style="max-height: 100px; margin-top:16px"/>
 
 ## 软件概述
 

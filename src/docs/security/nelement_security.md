@@ -1,7 +1,4 @@
----
-title: Nelement安全性
-order: 7
----
+# Nelement安全性
 
 为了方便更多安卓用户，我们在Element Android源代码的基础上做了简单的修改，发布了Nelement，旨在打破Element无法更改的默认服务器设置给中国用户带来的不便。在某种意义上来说，Nelement在某种意义上代表了NerChat!聊天平台的立场。
 

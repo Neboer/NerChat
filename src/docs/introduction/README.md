@@ -1,9 +1,6 @@
----
-title: 基本介绍
-next: matrix
----
+# 基本介绍
 
-![](/smalllogo.svg =100x100)
+<img src="../../assets/nerchat/nerchat_logo.svg" style="width: 100px; margin-top:16px"/>
 
 欢迎加入NerChat!
 
@@ -25,21 +22,21 @@ NerChat!的官方站点[chat.neboer.site](https://chat.neboer.site)**不支持**
 
 :::
 
-::: note
+::: info
 
 注意，本文档中使用可以切换的选项卡来标记不同客户端的不同行为，你可以根据需要切换到你使用的客户端来查阅指南。
 
 :::
 
-::: tabs#client
+::: tabs
 
-@tab Web
+==Web
 
 网页端的指南，这包括了包括chat.neboer.site在内的所有Element web实例网站，同时也包括Element Desktop等多个桌面端应用。
 
 注意，桌面端和网页端在使用体验上几乎没有不同，所以除非有特殊说明，否则二者的教程完全可以通用。
 
-@tab Mobile
+==Mobile
 
 移动端的指南，这包括了Element Android、[Nelement](../client/nelement)、Element IOS等常用的移动端Element客户端，Nelement是推荐的移动客户端。
 

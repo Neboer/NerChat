@@ -1,16 +1,12 @@
----
-title: 关于Element
-order: 2
-next: ../client/
----
+# 关于Element
 
-<img src="/element.png" style="max-height: 100px"/>
+<img src="./element.png" style="max-height: 100px; margin-top:16px"/>
 
 NerChat!的Web和Android端是基于Element项目部署制作的，在开始了解NerChat!之前，我想你还有必要了解一下什么是element。
 
 [Element](https://element.io/)是一个专注于开发Matrix协议的客户端的开源组织，它们所制作的网站和APP既现代又精美，是Matrix服务器所使用的首选客户端。你可以直接登录其官网下载它的客户端。
 
-::: note
+::: info
 
 以下内容来自[维基百科](https://zh.wikipedia.org/wiki/Element)
 

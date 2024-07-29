@@ -1,9 +1,6 @@
----
-title: 桌面端指南
-order: 2
----
+# 桌面端指南
 
-![](/nelemer_icon.png)
+<img src="./nelemer_icon.png" style="max-height: 100px; margin-top:16px"/>
 
 ## 桌面端指南
 

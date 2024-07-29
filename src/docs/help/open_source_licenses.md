@@ -1,8 +1,4 @@
----
-title: 开源协议
-order: 4
-icon: circle-exclamation
----
+# 开源协议
 
 NerChat!是开源软件，对NerChat!的任何使用、开发、分发、修改、宣传、商业化等行为都需要遵守其开源协议。
 

@@ -1,8 +1,4 @@
----
-title: IOS设备指南
-order: 4
-next: ../basic/
----
+# IOS设备指南
 
 ## 创建或获取美区账号
 
@@ -18,8 +14,10 @@ next: ../basic/
 2. 按照公众号指示，注册并登录平台。
 3. 通过平台购买或兑换美区Apple ID账号和密码。
 
-![第三方平台示例1](../../nerchatguide/mobile/ios/1_id.jpg)
-![第三方平台示例2](../../nerchatguide/mobile/ios/2_id.jpg)
+<div style="display:flex; justify-content:flex-start;">
+  <img src="../../assets/mobile/ios/1_id.jpg" alt="第三方平台示例1">
+  <img src="../../assets/mobile/ios/2_id.jpg" alt="第三方平台示例2">
+</div>
 
 平台内金币非人民币，注册时通常会赠送一定数量，充值费用较低。选择标注为“美区”的游戏进行兑换，获取账号和密码。
 
@@ -37,9 +35,9 @@ next: ../basic/
 
 具体操作如下：（二选一）
 
-::: tabs#method
+::: tabs
 
-@tab 方法一
+== 方法一
 
 ### 在设置中登录
 
@@ -48,10 +46,12 @@ next: ../basic/
 3. 选择“退出登录”。
 4. 使用美区账号和密码登录“媒体与购买项目”。
 
-![设置步骤1](../../nerchatguide/mobile/ios/1_login.jpg)
-![设置步骤2](../../nerchatguide/mobile/ios/2_login.jpg)
+<div style="display:flex; justify-content:row; flex-wrap: wrap">
+  <img src="../../assets/mobile/ios/1_login.jpg" alt="设置步骤1">
+  <img src="../../assets/mobile/ios/2_login.jpg" alt="设置步骤2">
+</div>
 
-@tab 方法二
+== 方法二
 
 ### 在App Store中登录
 
@@ -60,9 +60,11 @@ next: ../basic/
 3. 滑动至页面底部，选择“退出登录”。
 4. 使用美区账号和密码登录。
 
-![App Store步骤1](../../nerchatguide/mobile/ios/3_login.jpg)
-![App Store步骤2](../../nerchatguide/mobile/ios/4_login.jpg)
-![App Store步骤3](../../nerchatguide/mobile/ios/5_login.jpg)
+<div style="display:flex; justify-content:row; flex-wrap: wrap">
+  <img src="../../assets/mobile/ios/3_login.jpg" alt="App Store步骤1">
+  <img src="../../assets/mobile/ios/4_login.jpg" alt="App Store步骤2">
+  <img src="../../assets/mobile/ios/5_login.jpg" alt="App Store步骤3">
+</div>
 
 :::
 

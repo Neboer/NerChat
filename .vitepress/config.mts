@@ -1,12 +1,18 @@
 import { defineConfig } from 'vitepress'
 import fontawesome_components from './fontawesome_components'
 import docs_sidebar from './docs_sidebar'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "NerChat!——开源IM",
   description: "NerChat! 是一个部署在国内的即时聊天Matrix服务器。",
   lang: 'zh-CN',
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/nerchat_reverse_logo.svg',

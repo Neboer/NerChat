@@ -1,15 +1,12 @@
----
-title: 关于Matrix
-order: 1
----
+# 关于Matrix
 
-<img src="/matrix.svg" style="width: 100px"/>
+<img src="https://matrix.org/images/matrix-favicon.svg" style="width: 100px; margin-top:16px"/>
 
 NerChat!是基于Matrix部署的。在开始了解并加入NerChat!之前，我想你应该有必要了解一下什么是Matrix。
 
 [Matrix](https://matrix.org/)（国内无法直接访问）是一个专注于加密即时通信（IM）的庞大开源组织，拥有多个生态的开源聊天服务端和客户端。
 
-::: note
+::: info
 
 以下内容来自官网介绍
 

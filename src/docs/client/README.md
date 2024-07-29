@@ -1,7 +1,4 @@
----
-title: 客户端
-next: nelement
----
+# 客户端
 
 你可以用桌面端浏览器使用NerChat!的Web版本chat.neboer.site直接连接NerChat!，或者使用NerChat!的官方Android软件Nelement登录NerChat!.这两种方法是推荐的操作，不需要您做任何多余的操作，就像国产聊天软件一样开箱即用，非常方便。
 
