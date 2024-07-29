@@ -1,13 +1,9 @@
 export default [
     {
-        "text": "docs",
+        "text": "NerChat!",
         "items": [
             {
-                "text": "index.md",
-                "link": "/docs/index.md"
-            },
-            {
-                "text": "help",
+                "text": "帮助",
                 "items": [
                     {
                         "text": "关于我们",
@@ -32,7 +28,7 @@ export default [
                 ]
             },
             {
-                "text": "basic",
+                "text": "基本操作",
                 "items": [
                     {
                         "text": "用户登录",
@@ -45,7 +41,7 @@ export default [
                 ]
             },
             {
-                "text": "client",
+                "text": "客户端",
                 "items": [
                     {
                         "text": "IOS设备指南",
@@ -66,7 +62,7 @@ export default [
                 ]
             },
             {
-                "text": "introduction",
+                "text": "指南",
                 "items": [
                     {
                         "text": "关于Element",
@@ -79,7 +75,7 @@ export default [
                 ]
             },
             {
-                "text": "security",
+                "text": "安全性",
                 "items": [
                     {
                         "text": "交叉认证",

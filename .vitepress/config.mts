@@ -11,8 +11,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/docs/' },
-      { text: '团队', link: '/team' }
+      { text: '文档', link: '/docs/', activeMatch: '^/docs' },
+      { text: '关于', link: '/team' }
     ],
 
     sidebar: {

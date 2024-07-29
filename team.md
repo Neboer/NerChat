@@ -24,7 +24,7 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      我们的团队
+      UntilSoftware
     </template>
     <template #lead>
       <div>NerChat!由UntilSoftware团队开发、维护。</div>
