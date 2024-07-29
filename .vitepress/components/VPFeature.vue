@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import type { DefaultTheme } from 'vitepress/theme'
-// import VPImage from './VPImage.vue'
-// import VPLink from './VPLink.vue'
+import {VPImage} from 'vitepress/theme'
+// @ts-ignore
+import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 
-interface FSFeatureIcon extends DefaultTheme.FeatureIcon {
-    fontawesome: string | string[];
+type FSFeatureIcon = DefaultTheme.ThemeableImage & {
+    fontawesome?: string | string[];
 }
 
 defineProps<{

@@ -2,12 +2,13 @@
 import type { DefaultTheme } from 'vitepress/theme'
 import { withBase } from 'vitepress'
 
-interface IconThemeableImage extends DefaultTheme.ThemeableImage {
-    fontawesome: string | string[];
+
+type FSThemeableImage = DefaultTheme.ThemeableImage & {
+    fontawesome?: string | string[];
 }
 
 defineProps<{
-    image: IconThemeableImage
+    image: FSThemeableImage
     alt?: string
 }>()
 

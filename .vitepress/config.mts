@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import replace_vpimage_fontawesome from './replace_vpimage_fontawesome'
+import fontawesome_components from './fontawesome_components'
 import docs_sidebar from './docs_sidebar'
 
 // https://vitepress.dev/reference/site-config
@@ -23,5 +23,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  vite: replace_vpimage_fontawesome.vite
+  vite: fontawesome_components.vite
 })

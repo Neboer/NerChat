@@ -8,12 +8,15 @@ hero:
   tagline: "NerChat!是一个基于Matrix开发的、专业服务于国内用户多年的、自由安全的即时通信平台。"
   actions:
     - theme: brand
-      text: 立即加入
+      fontawesome: ['fab', 'chrome']
+      text: 桌面Web端
       link: /markdown-examples
     - theme: alt
-      text: 客户端下载
+      fontawesome: ['fas', 'mobile-screen']
+      text: 其他客户端
       link: /api-examples
     - theme: alt
+      fontawesome: ['far', 'file']
       text: 阅读文档
       link: /api-examples
   image:
@@ -47,7 +50,7 @@ features:
     details: Matrix项目专注于本地化，并且NerChat!更是针对Matrix的情况对中国大陆地区的访问做了优化，可以流畅访问
   - title: 跨平台
     icon: 
-      fontawesome: ['fas', 'mobile-screen-button']
+      fontawesome: ['fas', 'mobile-screen']
     details: Matrix本身就拥有极其丰富的跨平台支持，Web、Windows、Linux、MacOS、Android、ios等多端畅聊
   - title: 开放
     icon: 
