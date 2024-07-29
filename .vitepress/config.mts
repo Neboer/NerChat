@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import replace_vpimage_fontawesome from './replace_vpimage_fontawesome'
+import docs_sidebar from './docs_sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,19 +16,12 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs': [
-        {
-          text: '文档',
-          items: [
-            { text: 'Markdown Examples', link: '/docs/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/docs/api-examples' }
-          ]
-        }
-      ]
+      '/docs': docs_sidebar
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  vite: replace_vpimage_fontawesome.vite
 })
