@@ -20,7 +20,7 @@ NerChat!并不承诺会永久保留您的聊天消息历史记录，甚至我们
 
 头像->隐私安全->安全备份->从备份恢复
 
-![](../../nerchatguide/web/recover_from_backup.png)
+![](../../assets/web/recover_from_backup.png)
 
 == Mobile
 

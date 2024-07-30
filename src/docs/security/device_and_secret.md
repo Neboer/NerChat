@@ -79,12 +79,12 @@ Matrix协议的设计理念中有一个非常重要的概念，那就是服务�
 
 点击头像->所有设置->隐私安全->加密->永不从本会话向未验证的会话发送加密消息
 
-![](../../nerchatguide/web/never_send_encrypt_message_to_untrust_devices.png)
+![](../../assets/web/never_send_encrypt_message_to_untrust_devices.png)
 
 == Mobile
 
 点击头像->安全与隐私->仅向已验证的会话发送加密消息
 
-![](../../nerchatguide/mobile/only_send.jpg)
+![](../../assets/mobile/only_send.jpg)
 
 :::
