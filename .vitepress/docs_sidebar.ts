@@ -100,6 +100,10 @@ export default [
                     {
                         "text": "NerChat!网页版安全性",
                         "link": "/docs/security/nerchat_web_security.md"
+                    },
+                    {
+                        "text": "设备安全性",
+                        "link": "/docs/security/device_security.md"
                     }
                 ]
             },
