@@ -8,3 +8,9 @@
 .VPTeamPageTitle .title {
     font-weight: revert;
 }
+
+.custom-block h2 {
+    margin: 0;
+    border-top: 0;
+    padding-top: 10px;
+}

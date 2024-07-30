@@ -14,11 +14,23 @@
 在以下路径中新建一个文件`config.json`，将此内容保存其中
 
 ```json
-
 {
-    "default_server_name": "chat.neboer.site"
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://matrix.neboer.site:8448",
+            "server_name": "chat.neboer.site"
+        },
+        "im.vector.riot.jitsi": {
+            "preferredDomain": "meet.neboer.site"
+        }
+    },
+    "brand": "NerChat!",
+    "setting_defaults": {
+        "breadcrumbs": true,
+        "language": "zh-hans"
+    },
+    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
 }
-
 ```
 
 | 操作系统 | 文件位置  |
