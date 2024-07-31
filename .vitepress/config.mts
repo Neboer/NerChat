@@ -2,10 +2,12 @@ import { defineConfig } from 'vitepress'
 import fontawesome_components from './fontawesome_components'
 import docs_sidebar from './docs_sidebar'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+// @ts-ignore
 import cc_by_40_html from './CC-BY-4.0.txt?raw'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "NerChat!——开源IM",
   description: "NerChat! 是一个部署在国内的即时聊天Matrix服务器。",
   lang: 'zh-CN',
@@ -53,5 +55,9 @@ export default defineConfig({
     externalLinkIcon: true
   },
   vite: fontawesome_components.vite,
-  srcDir: './src'
+  srcDir: './src',
+
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
 })
