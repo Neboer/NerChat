@@ -19,4 +19,4 @@
 
 ## IOS
 
-关于IOS，请参考[IOS设备指南](ios/)一章。
+关于IOS，请参考[IOS设备指南](ios-instructions)一章。

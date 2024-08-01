@@ -23,8 +23,8 @@ export default [
                 "text": "客户端",
                 "items": [
                     {
-                        "text": "客户端",
-                        "link": "/docs/client/README.md"
+                        "text": "可用客户端",
+                        "link": "/docs/client/available-clients.md"
                     },
                     {
                         "text": "Nelement",
@@ -32,15 +32,15 @@ export default [
                     },
                     {
                         "text": "桌面端指南",
-                        "link": "/docs/client/nelemer.md"
+                        "link": "/docs/client/desktop-client.md"
                     },
                     {
                         "text": "其他客户端",
-                        "link": "/docs/client/others.md"
+                        "link": "/docs/client/other-clients.md"
                     },
                     {
                         "text": "IOS设备指南",
-                        "link": "/docs/client/ios.md"
+                        "link": "/docs/client/ios-instructions.md"
                     }
                 ]
             },
@@ -50,7 +50,7 @@ export default [
                 "items": [
                     {
                         "text": "账号管理",
-                        "link": "/docs/basic/README.md"
+                        "link": "/docs/basic/account-management.md"
                     },
                     {
                         "text": "用户注册",
@@ -67,7 +67,7 @@ export default [
                 "items": [
                     {
                         "text": "安全与加密",
-                        "link": "/docs/security/README.md"
+                        "link": "/docs/security/security-and-encryption.md"
                     },
                     {
                         "text": "密码学综述",
@@ -75,19 +75,19 @@ export default [
                     },
                     {
                         "text": "安全密钥",
-                        "link": "/docs/security/secure_key.md"
+                        "link": "/docs/security/secure-key.md"
                     },
                     {
                         "text": "交叉认证",
-                        "link": "/docs/security/cross_sign.md"
+                        "link": "/docs/security/cross-sign.md"
                     },
                     {
                         "text": "设备密钥管理",
-                        "link": "/docs/security/device_and_secret.md"
+                        "link": "/docs/security/device-and-secret.md"
                     },
                     {
                         "text": "本地备份",
-                        "link": "/docs/security/local_backup.md"
+                        "link": "/docs/security/local-backup.md"
                     },
                     {
                         "text": "加密协议",
@@ -95,15 +95,15 @@ export default [
                     },
                     {
                         "text": "Nelement安全性",
-                        "link": "/docs/security/nelement_security.md"
+                        "link": "/docs/security/nelement-security.md"
                     },
                     {
                         "text": "NerChat!网页版安全性",
-                        "link": "/docs/security/nerchat_web_security.md"
+                        "link": "/docs/security/nerchat-web-security.md"
                     },
                     {
                         "text": "设备安全性",
-                        "link": "/docs/security/device_security.md"
+                        "link": "/docs/security/device-security.md"
                     }
                 ]
             },
@@ -112,23 +112,23 @@ export default [
                 "items": [
                     {
                         "text": "FAQ",
-                        "link": "/docs/help/README.md"
+                        "link": "/docs/help/faq.md"
                     },
                     {
                         "text": "关于我们",
-                        "link": "/docs/help/about_us.md"
+                        "link": "/docs/help/about-us.md"
                     },
                     {
                         "text": "开源协议",
-                        "link": "/docs/help/open_source_licenses.md"
+                        "link": "/docs/help/open-source-licenses.md"
                     },
                     {
                         "text": "用户协议",
-                        "link": "/docs/help/terms_of_usage.md"
+                        "link": "/docs/help/terms-of-usage.md"
                     },
                     {
                         "text": "隐私政策",
-                        "link": "/docs/help/privacy_policy.md"
+                        "link": "/docs/help/privacy-policy.md"
                     }
                 ]
             }

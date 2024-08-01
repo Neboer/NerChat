@@ -1,5 +1,13 @@
 # IOS设备指南
 
+IOS系统里安装软件并不容易。我们希望通过这个教程，给出一个可以在中国大陆安全、合法的安装官方Element客户端，并指定NerChat!作为目标服务器的操作指南。
+
+::: warning
+
+本指南不一定100%可行，也可能会过期，NerChat!的维护团队不保证此内容的真实和有效性。本指南中的第三方平台与我们皆没有任何关系，我们也不进行任何宣传、广告建议，购买账号等相关的安全风险希望大家提前知悉。NerChat!本身不对给您造成的任何直接或间接的损失负任何责任。
+
+:::
+
 ## 创建或获取美区账号
 
 ### 1. 借用账号
@@ -72,7 +80,7 @@
 
 使用美区账号登录后，在App Store中搜索并下载Element应用。确认应用图标如下：
 
-<img src="https://element.io/images/logo-mark-primary.svg" alt="Element图标" width="96" height="96">
+![](../../assets/element-logo-mark-primary.svg)
 
 ::: warning
 

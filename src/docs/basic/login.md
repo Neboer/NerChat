@@ -6,7 +6,7 @@
 
 NerChat!和传统的聊天平台不同，您的消息被自己的密钥严格加密，因此，Matrix往往需要更多步骤
 
-有关加密的更多信息，请参见[安全](../security/)。
+有关加密的更多信息，请参见[安全](../security/security-and-encryption)。
 
 :::
 

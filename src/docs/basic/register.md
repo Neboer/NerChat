@@ -36,7 +36,7 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 == Mobile
 
-对于安卓手机，推荐您使用NerChat!推荐的客户端[Nelement](#)。如果您希望使用其他兼容Matrix协议的客户端如Element，请参考[第三方客户端登录指南](#)。
+对于安卓手机，推荐您使用NerChat!推荐的客户端[Nelement](../client/nelement)。如果您希望使用其他兼容Matrix协议的客户端如Element，请参考[第三方客户端登录指南](../client/other-clients)。
 
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
   <img src="../../assets/mobile/open.png" alt="">
@@ -61,4 +61,4 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 :::
 
-一旦你注册成功，就会自动进行初次登录。有关初次登陆后应该完成的内容，请参考[登录](login/)中的相关内容。
+一旦你注册成功，就会自动进行初次登录。有关初次登陆后应该完成的内容，请参考[登录](login)中的相关内容。

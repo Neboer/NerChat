@@ -1,6 +1,7 @@
 # 桌面端指南
 
-<img src="./nelemer_icon.png" style="max-height: 100px; margin-top:16px"/>
+<!-- <img src="./nelemer_icon.png" style="max-height: 100px; margin-top:16px"/> -->
+NerChat!的桌面端使用和Element官方相似的安装方法。你可以在中国大陆直接访问Element官方网站，下载官方客户端，并简单的修改一下配置文件，就可以默认直连NerChat!了。
 
 ## 桌面端指南
 
