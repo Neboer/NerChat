@@ -45,8 +45,7 @@ export default [
                 ]
             },
             {
-                "text": "基本操作",
-                "logo": '/my-logo.svg',
+                "text": "使用指南",
                 "items": [
                     {
                         "text": "账号管理",

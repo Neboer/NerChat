@@ -14,3 +14,19 @@
     border-top: 0;
     padding-top: 10px;
 }
+
+.only-shown-in-light-theme {
+    display: revert;
+}
+
+.only-shown-in-dark-theme {
+    display: none;
+}
+
+.dark .only-shown-in-light-theme {
+    display: none;
+}
+
+.dark .only-shown-in-dark-theme {
+    display: revert;
+}
