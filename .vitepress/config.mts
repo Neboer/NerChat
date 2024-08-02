@@ -52,12 +52,16 @@ export default withMermaid({
     darkModeSwitchTitle: '切换到暗黑主题',
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '返回顶部',
-    externalLinkIcon: true
+    externalLinkIcon: true,
+
+    search: {
+      provider: 'local'
+    }
   },
   vite: fontawesome_components.vite,
   srcDir: './src',
 
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
-  },
+  }
 })

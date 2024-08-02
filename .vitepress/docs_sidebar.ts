@@ -7,7 +7,7 @@ export default [
                 "items": [
                     {
                         "text": "基本介绍",
-                        "link": "/docs/introduction/README.md"
+                        "link": "/docs/introduction/welcome.md"
                     },
                     {
                         "text": "关于Matrix",

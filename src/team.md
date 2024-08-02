@@ -17,7 +17,6 @@ import VivianAvatar from './assets/nerchat/avatars/vivian-avatar.webp'
 import CikarosAvatar from './assets/nerchat/avatars/cikaros-avatar.webp'
 
 const members = [
-  {},
   {
     avatar: NeboerAvatar,
     name: 'Neboer',
@@ -73,8 +72,7 @@ const members = [
     links: [
     { icon: 'github', link: 'https://github.com/Neboer' }
     ]
-  },
-  {}
+  }
 ]
 </script>
 
@@ -92,3 +90,7 @@ const members = [
     :members="members"
   />
 </VPTeamPage>
+
+<style scoped>
+
+</style>

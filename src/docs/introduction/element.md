@@ -1,6 +1,7 @@
 # 关于Element
 
-<img src="./element.png" style="max-height: 100px; margin-top:16px"/>
+<!-- <img src="./element.png" style="max-height: 100px; margin-top:16px"/> -->
+![](../../assets/element-logo-mark-primary.svg)
 
 NerChat!的Web和Android端是基于Element项目部署制作的，在开始了解NerChat!之前，我想你还有必要了解一下什么是element。
 
@@ -14,4 +15,4 @@ NerChat!的Web和Android端是基于Element项目部署制作的，在开始了�
 
 Element（前身为 Riot 和 Vector）是一个免费的开源软件即时通讯客户端，实现了 Matrix 协议。Element 支持端到端加密、组和用户之间的文件共享。它发布了Web端、桌面端和移动端版本，让Matrix得到跨平台支持。
 
-简单说，Element客户端可以直接连接到NerChat!，并且直接面向终端用户提供方便的即时通讯软件服务，它是NerChat!跨平台支持的主要原因。当然你可以使用其他的客户端连接NerChat!，这一点会在[客户端](../client/)一章详细阐述。
+简单说，Element客户端可以直接连接到NerChat!，并且直接面向终端用户提供方便的即时通讯软件服务，它是NerChat!跨平台支持的主要原因。当然你可以使用其他的客户端连接NerChat!，这一点会在[客户端](../client/available-clients)一章详细阐述。

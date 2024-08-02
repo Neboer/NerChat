@@ -10,7 +10,7 @@ NerChat!基于Matrix和Element开源生态经过修改和部署而来，旨在�
 
 继承了Element的便捷性，NerChat!的多平台支持相当完善，你可以使用任何你喜欢的客户端和兼容Matrix协议的软件连接到NerChat!主服务器chat.neboer.site，直接开始安全且无门槛的加密聊天。
 
-同时，NerChat!还继承了Matrix的安全性，你可以在NerChat!上发送经过非对称加密的消息，在密码学上保证了除了消息参与者以外没有任何人可以获知你的消息内容，这甚至包括了服务器本身。详情请参阅[安全](../security/)介绍。
+同时，NerChat!还继承了Matrix的安全性，你可以在NerChat!上发送经过非对称加密的消息，在密码学上保证了除了消息参与者以外没有任何人可以获知你的消息内容，这甚至包括了服务器本身。详情请参阅[安全](../security/security-and-encryption)介绍。
 
 NerChat!目前由Neboer和Krusl运营，有问题欢迎直接在群内反馈。
 

@@ -32,7 +32,7 @@ Apache Licence 是著名的非盈利开源组织 Apache 采用的协议。该协
 1. Nelement是免费软件，**禁止任何形式的付费分发**。如果您发现有人在付费分发此软件，请直接在大群中报告，UntilSoftware的成员会响应您的报告。如果您在获得此软件的过程中付费，则说明您很可能被骗了。
 2. 在分发Nelement时，**严禁对安装包进行任何形式的修改**（如有修改，请开源+说明+提及Element Android和Nelement），严禁在修改包名或重签名后分发Nelement。
 3. 您可以制作其他**默认**使用NerChat!的家服务器matrix.neboer.site/chat.neboer.site的其他客户端或网站，但您务必提到NerChat!与您所提供的服务无任何直接关系。如果您所提供的服务并未默认设定NerChat!为默认网站，则可以不声明。
-4. NerChat!和Nelement软件所使用的图标（绿色背景下的阿列夫N）是NerChat!的知识产权，版权声明如下：
+4. NerChat!和Nelement软件所使用的图标（绿色背景下的Hebrew字母Aleph）是NerChat!的知识产权，版权声明如下：
     ```
     版权所有 © NerChat!，2023，保留所有权利。
 

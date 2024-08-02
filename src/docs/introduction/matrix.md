@@ -1,6 +1,6 @@
 # 关于Matrix
 
-<img src="https://matrix.org/images/matrix-favicon.svg" style="width: 100px; margin-top:16px"/>
+<img src="../../assets/matrix-logo.svg" style="width: 100px; margin-top:16px; margin-bottom: 16px"/>
 
 NerChat!是基于Matrix部署的。在开始了解并加入NerChat!之前，我想你应该有必要了解一下什么是Matrix。
 
