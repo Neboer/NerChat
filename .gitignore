@@ -2,3 +2,5 @@ node_modules
 .vscode
 .vitepress/dist
 .vitepress/cache 
+.idea
+__pycache__
