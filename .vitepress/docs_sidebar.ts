@@ -77,8 +77,12 @@ export default [
                         "link": "/docs/security/secure-key.md"
                     },
                     {
-                        "text": "交叉认证",
+                        "text": "设备密钥与交叉认证",
                         "link": "/docs/security/cross-sign.md"
+                    },
+                    {
+                        "text": "历史数据安全性",
+                        "link": "/docs/security/room-history.md"
                     },
                     {
                         "text": "设备密钥管理",

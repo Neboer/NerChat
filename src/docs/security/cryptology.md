@@ -24,8 +24,33 @@ Matrix是一个严格加密的协议，本章会大概介绍Matrix加密协议�
 B可以利用A的公钥加密消息，将加密后的消息发送给A，A在收到消息后用自己的私钥解密消息内容，就获得了B的消息明文。
 网络中的攻击者只能获得公钥和密文，无法解密消息本身，是非常聪明的加密算法。
 
-但强大的网络的攻击者可以充当中间人，同时生成两对公私钥，一对用来和A通信，一对用来和B通信，二者并不清楚和自己通信的是对方还是中间人，
-这就是中间人攻击。中间人可以获得加密的所有内容，也可以任意修改其中的内容，发送给对端。
+但非对称加密可能会受到中间人攻击的威胁，这是一个很重要的问题，我们在下面给出详细的解释。
+
+## 中间人攻击
+
+中间人攻击是一种专门针对在无公钥认证体系的非对称加密系统的攻击。强大的网络的攻击者可以充当中间人，同时生成两对公私钥，一对用来和Alice通信，一对用来和Bob通信，如果Alice和Bob不对对方发送的公钥做任何的确认和检查，就直接默认信任，那么中间人攻击就成立了。中间人可以获得加密的所有内容，也可以任意修改其中的内容，发送给对端。
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant MITM as Mallory (中间人)
+    participant Bob
+
+    Alice->>MITM: 公钥请求
+    Note over MITM: Mallory 拦截并请求 Bob 的公钥
+    MITM->>Bob: 公钥请求
+    Bob->>MITM: Bob的公钥
+    Note over MITM: Mallory 拦截并发送自己的公钥给 Alice
+    MITM->>Alice: MITM的公钥
+    Alice->>MITM: 加密的消息 (用MITM的公钥加密)
+    Note over MITM: Mallory 解密消息并读取
+    MITM->>Bob: 加密的消息 (用Bob的公钥重新加密)
+    Bob->>MITM: 解密消息并回复 (用Alice的公钥加密)
+    MITM->>Alice: 加密的回复 (用MITM的公钥加密)
+    Note over MITM: Mallory 解密并修改消息
+    Alice->>MITM: 接收到的回复
+
+```
 
 ## 散列与签名
 
