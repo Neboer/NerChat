@@ -1,6 +1,6 @@
 # 基本介绍
 
-<img src="../../assets/nerchat/nerchat_logo.svg" style="width: 100px; margin-top:16px"/>
+<img src="/nerchat_logo.svg" style="width: 100px; margin-top:16px"/>
 
 欢迎加入NerChat!
 

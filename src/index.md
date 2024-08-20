@@ -21,7 +21,7 @@ hero:
       text: 阅读文档
       link: /docs/
   image:
-    src: ./assets/nerchat/nerchat_logo.svg
+    src: /nerchat_logo.svg
     alt: VitePress
 
 features:

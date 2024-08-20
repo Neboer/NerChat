@@ -20,7 +20,7 @@ NerChat!是基于Matrix和Element部署的，虽然二者都已经相当成熟�
 
 **Q: 我不能解密聊天记录**
 
-**A:** 请[恢复密码库](../security/local-backup/#恢复密码库)。
+**A:** 请[恢复密码库](../security/local-backup#恢复密码库)。
 
 **Q: 我不能解密别人刚刚发给我的聊天内容**
 
@@ -126,7 +126,7 @@ NerChat!是基于Matrix和Element部署的，虽然二者都已经相当成熟�
 
 **Q: 我想感谢作者对网站的付出，你们接受赞助吗？**
 
-**A:** NerChat!暂时不打算接受赞助，如果你们一定想要赞助NerChat!，请[赞助Matrix的开发者们](https://matrix.org/faq/#how-is-matrixorg-funded)。
+**A:** NerChat!暂时不打算接受赞助，如果你们一定想要赞助NerChat!，请[赞助Matrix的开发者们](https://matrix.org/faq#how-is-matrixorg-funded)。
 
 **Q: 这太酷了！我也想搭建我自己的Matrix网站！**
 

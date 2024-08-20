@@ -20,7 +20,7 @@ NerChat!的Web端仅支持桌面浏览器使用，移动端访问NerChat!请使�
 | :----:            | :--------: | :--------: |
 |Web                |[chat.neboer.site](https://chat.neboer.site)|[app.element.io](https://app.element.io)|
 |Windows/Linux/MacOS|  Element Desktop   | [Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|
-|Android            |  [Nelement](nelement/)    | [Element Android](https://f-droid.org/packages/im.vector.app/) |
+|Android            |  [Nelement](nelement)    | [Element Android](https://f-droid.org/packages/im.vector.app/) |
 |IOS                | Element IOS          | [Element IOS](https://matrix.org/docs/projects/client/element-ios)     |
 
 在桌面设备上，Web端和桌面端的消息推送是最快的。
