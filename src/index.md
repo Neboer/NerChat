@@ -9,12 +9,13 @@ hero:
   actions:
     - theme: brand
       fontawesome: ['fab', 'chrome']
-      text: 桌面Web端
-      link: /docs/client/nelemer.md
+      text: 浏览器访问
+      # link: /docs/client/desktop-client.md
+      link: https://chat.neboer.site/
     - theme: alt
       fontawesome: ['fas', 'mobile-screen']
       text: 其他客户端
-      link: /docs/client/others.md
+      link: /docs/client/available-clients.md
     - theme: alt
       fontawesome: ['far', 'file']
       text: 阅读文档
