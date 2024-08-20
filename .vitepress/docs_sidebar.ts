@@ -58,6 +58,10 @@ export default [
                     {
                         "text": "用户登录",
                         "link": "/docs/basic/login.md"
+                    },
+                    {
+                        "text": "消息通知",
+                        "link": "/docs/basic/notifications.md"
                     }
                 ]
             },
@@ -81,7 +85,7 @@ export default [
                         "link": "/docs/security/cross-sign.md"
                     },
                     {
-                        "text": "历史数据安全性",
+                        "text": "房间",
                         "link": "/docs/security/room-history.md"
                     },
                     {

@@ -25,27 +25,6 @@
         ]
     },
     {
-        "text": "docs",
-        "items": [
-            {
-                "text": "api-examples.md",
-                "link": "/docs/api-examples.md"
-            },
-            {
-                "text": "getting_started.md",
-                "link": "/docs/getting_started.md"
-            },
-            {
-                "text": "index.md",
-                "link": "/docs/index.md"
-            },
-            {
-                "text": "markdown-examples.md",
-                "link": "/docs/markdown-examples.md"
-            }
-        ]
-    },
-    {
         "text": "basic",
         "items": [
             {
@@ -55,6 +34,10 @@
             {
                 "text": "用户注册",
                 "link": "/docs/basic/register.md"
+            },
+            {
+                "text": "账号管理",
+                "link": "/docs/basic/account-management.md"
             }
         ]
     },
