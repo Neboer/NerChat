@@ -81,6 +81,14 @@ export default [
                         "link": "/docs/security/secure-key"
                     },
                     {
+                        "text": "安全存储安全密钥",
+                        "link": "/docs/security/storage-secure-key.md"
+                    },
+                    {
+                        "text": "安全传输安全密钥",
+                        "link": "/docs/security/transfer-secure-key.md"
+                    },
+                    {
                         "text": "设备密钥与交叉认证",
                         "link": "/docs/security/cross-sign"
                     },
