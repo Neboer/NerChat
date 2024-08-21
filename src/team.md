@@ -22,7 +22,7 @@ const members = [
   {
     avatar: NeboerAvatar,
     name: 'Neboer',
-    title: '开发者/Nelement维护者/运维工程师',
+    title: '开发者/运维工程师/技术编辑',
     links: [
       { icon: 'github', link: 'https://github.com/Neboer' },
       { icon: {svg: home_icon}, link: 'https://www.neboer.site/'}
@@ -48,10 +48,7 @@ const members = [
   {
     avatar: VivianAvatar,
     name: 'Vivian',
-    title: '现场工程师',
-    links: [
-      { icon: 'github', link: 'https://github.com/Neboer' }
-    ]
+    title: '现场工程师'
   },
   {
     avatar: DucksoftAvatar,
