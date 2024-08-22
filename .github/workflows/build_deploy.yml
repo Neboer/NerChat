@@ -49,3 +49,4 @@ jobs:
           rm: true
           source: ".vitepress/dist"
           target: ${{ secrets.TARGET_DIR }}
+          strip_components: 2
