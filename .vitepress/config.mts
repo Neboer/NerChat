@@ -13,7 +13,7 @@ export default withMermaid({
   head: [
     ['meta', { property: 'og:title', content: 'NerChat!——开源IM' }],
     ['meta', { property: 'og:description', content: 'NerChat! 是一个部署在国内的即时聊天Matrix服务器。' }],
-    ['meta', { property: 'og:image', content: 'http://www.neboer.site/nerchat/nerchat_logo.svg' }],
+    ['meta', { property: 'og:image', content: 'http://www.neboer.site/nerchat/wide_nerchat_logo.svg' }],
     ['meta', { property: 'og:url', content: 'https://www.neboer.site/nerchat/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     // more Open Graph tag...
