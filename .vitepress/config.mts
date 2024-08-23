@@ -17,6 +17,7 @@ export default withMermaid({
     ['meta', { property: 'og:url', content: 'https://www.neboer.site/nerchat/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     // more Open Graph tag...
+    ['link', { rel: 'icon', href: '/nerchat/nerchat_reverse_logo.svg' }]
   ],
   lang: 'zh-CN',
   markdown: {
