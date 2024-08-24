@@ -30,3 +30,25 @@
 .dark .only-shown-in-dark-theme {
     display: revert;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #888888;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+  }
+
+:root {
+    --vp-font-family-base: /* normal text font */
+    --vp-font-family-mono: /* code font */
+  }
