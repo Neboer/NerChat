@@ -10,12 +10,23 @@ hero:
     - theme: brand
       fontawesome: ['fab', 'chrome']
       text: 浏览器访问
-      # link: /docs/client/desktop-client.md
+      # link: /docs/client/desktop-client
       link: https://chat.neboer.site/
+      browser_type: desktop
+    - theme: brand
+      fontawesome: ['fab', 'android']
+      text: 安卓客户端
+      link: /docs/client/nelement
+      browser_type: Android
+    - theme: brand
+      fontawesome: ['fab', 'apple']
+      text: 苹果用户指南
+      link: /docs/client/ios-instructions
+      browser_type: iOS
     - theme: alt
       fontawesome: ['fas', 'mobile-screen']
       text: 其他客户端
-      link: /docs/client/available-clients.md
+      link: /docs/client/available-clients
     - theme: alt
       fontawesome: ['far', 'file']
       text: 阅读文档
