@@ -230,7 +230,8 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 
 .action {
     flex-shrink: 0;
-    padding: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .image {
