@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, onMounted } from 'vue'
+import { computed } from 'vue'
 import { normalizeLink } from 'vitepress/dist/client/theme-default/support/utils.js'
 import { EXTERNAL_URL_RE } from 'vitepress/dist/client/shared.js'
 
@@ -25,42 +25,10 @@ const isExternal = computed(
 const component = computed(() => {
     return props.tag || props.href ? 'a' : 'button'
 })
-
-const deviceType = ref<string>('');
-
-const detectDeviceType = (): string => {
-  const userAgent = navigator.userAgent.toLowerCase();
-
-  if (/android/.test(userAgent)) {
-    return 'android';
-  } else if (/iphone|ipad|ipod|mac/.test(userAgent)) {
-    return 'apple';
-  } else {
-    return 'pc';
-  }
-};
-
-const shouldShowComponent = computed(() => {
-  if (deviceType.value === 'pc') {
-    return props.text !== '下载安卓客户端' && props.text !== 'ios安装指南';
-    console.log(shouldShowComponent);
-  } else if (deviceType.value === 'android') {
-    return props.text !== '浏览器访问' && props.text !== 'ios安装指南';
-  } else if (deviceType.value === 'apple') {
-    return props.text !== '浏览器访问' && props.text !== '下载安卓客户端';
-  }
-  return true; 
-});
-
-onMounted(() => {
-  deviceType.value = detectDeviceType();
-//   console.log(`Detected device type: ${deviceType.value}`);
-//   console.log(`Received text prop: ${props.text}`);
-});
 </script>
 
 <template>
-    <component v-if="shouldShowComponent" :is="component" class="VPButton" :class="[size, theme]" :href="href ? normalizeLink(href) : undefined"
+    <component :is="component" class="VPButton" :class="[size, theme]" :href="href ? normalizeLink(href) : undefined"
         :target="props.target ?? (isExternal ? '_blank' : undefined)"
         :rel="props.rel ?? (isExternal ? 'noreferrer' : undefined)">
         <font-awesome-icon v-if="props.icon" :icon="props.icon" />
@@ -76,8 +44,6 @@ onMounted(() => {
     font-weight: 600;
     white-space: nowrap;
     transition: color 0.25s, border-color 0.25s, background-color 0.25s;
-    margin-left: 6px;
-    margin-right: 6px;
 }
 
 .VPButton:active {

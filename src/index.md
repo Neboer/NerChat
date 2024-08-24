@@ -12,14 +12,6 @@ hero:
       text: 浏览器访问
       # link: /docs/client/desktop-client.md
       link: https://chat.neboer.site/
-    - theme: brand
-      fontawesome: ['fab', 'android']
-      text: 下载安卓客户端
-      link: https://www.neboer.site/nerchat/docs/client/nelement.html
-    - theme: brand
-      fontawesome: ['fab', 'apple']
-      text: ios安装指南
-      link: https://www.neboer.site/nerchat/docs/client/ios-instructions.html
     - theme: alt
       fontawesome: ['fas', 'mobile-screen']
       text: 其他客户端
