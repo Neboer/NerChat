@@ -11,12 +11,6 @@ export default withMermaid({
   title: "NerChat!——开源IM",
   description: "NerChat! 是一个部署在国内的即时聊天Matrix服务器。",
   head: [
-    ['meta', { property: 'og:title', content: 'NerChat!——开源IM' }],
-    ['meta', { property: 'og:description', content: 'NerChat! 是一个部署在国内的即时聊天Matrix服务器。' }],
-    ['meta', { property: 'og:image', content: 'http://www.neboer.site/nerchat/wide_nerchat_logo.svg' }],
-    ['meta', { property: 'og:url', content: 'https://www.neboer.site/nerchat/' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    // more Open Graph tag...
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/nerchat/favicon_logo/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/nerchat/favicon_logo/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/nerchat/favicon_logo/favicon-16x16.png' }],
