@@ -12,7 +12,7 @@ NerChat!是即时聊天软件，即时聊天意味着消息的实时送达，实
 
 ### FCM
 
-无论是Nelement还是Element，都分为Fdroid版本和Google Play版本。其中，Google Play版本的Element/Nelement支持FCM框架，大多数国产手机在国内[可以无障碍使用](https://www.zhihu.com/question/325953773/answer/3465073419)FCM，如果想要使用FCM而不是后台驻留推送，可以使用以下方法。
+无论是Nelement还是Element，都分为Fdroid版本和Google Play版本。其中，Google Play版本的Element/Nelement支持FCM框架，大多数国产手机在国内[可以无障碍使用](https://www.zhihu.com/question/325953773)FCM，如果想要使用FCM而不是后台驻留推送，可以使用以下方法。
 
 - 检查FCM服务是否可用：打开拨号盘，输入 `*#*#426#*#*` ，在弹出的界面中查看是否出现“Server: Connected”，若是，则手机支持FCM。
 - 下载安装Element/Nelement的gplay版本。对Nelement，可以直接在Github Release里下载到。
