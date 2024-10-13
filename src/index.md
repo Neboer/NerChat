@@ -74,5 +74,5 @@ features:
   - title: 开放
     icon: 
       fontawesome: ['fas', 'users']
-    details: NerChat!兼容Matrix协议的所有软件，同时NerChat!的软件也兼容其他的Matrix服务器。NerChat!会促进Matrix在中国境内的快速传播。
+    details: NerChat!兼容Matrix协议的所有软件，同时NerChat!的软件也兼容其他的Matrix服务器，希望可以为优秀开源技术的本地化做一份贡献。
 ---

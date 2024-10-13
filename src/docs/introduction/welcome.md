@@ -4,7 +4,7 @@
 
 欢迎加入NerChat!
 
-NerChat!是由Neboer和Krusl以学习交流为目的搭建的一个开放的网络聊天室，旨在提供安全、隐私、稳定、可靠、自由、便捷的网络聊天服务。
+NerChat!是由UntilSoftware以学习交流为目的搭建的一个开放的网络聊天室，旨在提供安全、隐私、稳定、可靠、自由、便捷的网络聊天服务。
 
 NerChat!基于Matrix和Element开源生态经过修改和部署而来，旨在保留Matrix生态软件优秀的特性的同时，最大程度上降低国内用户的使用门槛。
 
@@ -12,7 +12,7 @@ NerChat!基于Matrix和Element开源生态经过修改和部署而来，旨在�
 
 同时，NerChat!还继承了Matrix的安全性，你可以在NerChat!上发送经过非对称加密的消息，在密码学上保证了除了消息参与者以外没有任何人可以获知你的消息内容，这甚至包括了服务器本身。详情请参阅[安全](../security/security-and-encryption)介绍。
 
-NerChat!目前由Neboer和Krusl运营，有问题欢迎直接在群内反馈。
+NerChat!目前由UntilSoftware团队代为运营，有问题欢迎直接在群内反馈。
 
 再次欢迎您加入NerChat!，请查阅下面的文档来了解NerChat!的基本使用方法。
 

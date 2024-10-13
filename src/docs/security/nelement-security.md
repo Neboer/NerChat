@@ -59,7 +59,7 @@ Nelement的软件发布流程如下：
 
 NerChat!中发布Nelement的方法只是通过GitHub Release，国内很多用户下载存在一定困难。为了方便NerChat!无障碍的传播，我们允许用户在Apache协议的许可下自由的分发Nelement的资源。在以下的列表中列举了一些目前得到NerChat!维护者认可的Nelement发布渠道，如果您发现了Nelement软件出现在其他应用商店/网盘链接分享中，请及时告知我们，谢谢。
 
-如果您想成为Nelement在某个平台的新的发布者，请直接与Neboer或Krusl取得联系。
+如果您想成为Nelement在某个平台的新的发布者，请直接在NerChat!中与我们取得联系。
 
 以下是目前已知的、会定期更新且可以信任的Nelement第三方发布渠道：
 
