@@ -29,7 +29,8 @@ export default withMermaid({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/docs/', activeMatch: '^/docs' },
-      { text: '关于', link: '/team' }
+      { text: '关于', link: '/team' },
+      { text: '状态', link: 'https://status.neboer.site/status/nerchat-services' },
     ],
     sidebar: {
       '/docs': docs_sidebar
@@ -38,7 +39,7 @@ export default withMermaid({
       { icon: 'github', link: 'https://github.com/Neboer/NerChat' }
     ],
     footer: {
-      message: 'NerChat! Documents are written by Neboer & Retrieve0 & Cikaros with ❤️',
+      message: 'NerChat! Documents by UntilSoftware with ❤️',
       copyright: cc_by_40_html
     },
     lastUpdated: {
