@@ -1,6 +1,6 @@
 # 客户端
 
-你可以用桌面端浏览器使用NerChat!的Web版本chat.neboer.site直接连接NerChat!，或者使用NerChat!的官方Android软件Nelement登录NerChat!.这两种方法是推荐的操作，不需要您做任何多余的操作，就像国产聊天软件一样开箱即用，非常方便。
+你可以用桌面端浏览器使用NerChat!的Web版本chat.neboer.site直接连接NerChat!，或者使用NerChat!的官方Android软件Nelement登录NerChat!。这两种方法是推荐的操作，不需要您做任何多余的操作，就像国产聊天软件一样开箱即用，非常方便。
 
 ::: warning
 
@@ -10,11 +10,11 @@ NerChat!的Web端仅支持桌面浏览器使用，移动端访问NerChat!请使�
 
 :::
 
-当然，如果您不想用NerChat!制作的软件，您当然可以使用任何支持Matrix协议的客户端（如Element Android）登录NerChat!，只需要把homeserver地址设置为**chat.neboer.site**即可。当然您必须首先解决官方app无法连接至主站的问题。
+当然，如果您不想用NerChat!制作的软件，您可以使用任何支持Matrix协议的客户端（如Element Android）登录NerChat!，只需要把homeserver地址设置为**chat.neboer.site**即可。当然您必须首先解决官方app可能无法连接至**element.io**的问题。
 
-同时，你也可以用NerChat!发布的客户端连接任何支持Matrix协议的服务器，当然了，包括matrix.org在内的一系列网站不可以直接访问。
+同时，你也可以用NerChat!发布的客户端连接任何支持Matrix协议的服务器，由于中国的网络限制，包括matrix.org在内的一系列网站可能无法直接访问。
 
-根据你所使用的平台点击下面列表中的软件名称，下载对应客户端。注意，所有的官方客户端网站均无法直接访问。
+根据你所使用的平台点击下面列表中的软件名称，下载对应客户端。基于您的网络环境，官方客户端网站可能无法直接访问。
 
 | 使用环境            | 推荐客户端  |  官方客户端  |
 | :----:            | :--------: | :--------: |
