@@ -27,10 +27,6 @@ export default [
                         "link": "/docs/client/available-clients"
                     },
                     {
-                        "text": "Nelement",
-                        "link": "/docs/client/nelement"
-                    },
-                    {
                         "text": "桌面端指南",
                         "link": "/docs/client/desktop-client"
                     },
@@ -41,6 +37,10 @@ export default [
                     {
                         "text": "IOS设备指南",
                         "link": "/docs/client/ios-instructions"
+                    },
+                    {
+                        "text": "Nelement（过时的）",
+                        "link": "/docs/client/nelement"
                     }
                 ]
             },

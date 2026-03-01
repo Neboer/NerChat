@@ -22,10 +22,12 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 2. 按照公众号指示，注册并登录平台。
 3. 通过平台购买或兑换美区Apple ID账号和密码。
 
+<!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:flex-start;">
   <img src="../../assets/mobile/ios/1_id.jpg" alt="第三方平台示例1">
   <img src="../../assets/mobile/ios/2_id.jpg" alt="第三方平台示例2">
 </div>
+<!-- markdownlint-enable MD033 -->
 
 平台内金币非人民币，注册时通常会赠送一定数量，充值费用较低。选择标注为“美区”的游戏进行兑换，获取账号和密码。
 
@@ -54,10 +56,13 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 3. 选择“退出登录”。
 4. 使用美区账号和密码登录“媒体与购买项目”。
 
+<!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
-  <img src="../../assets/mobile/ios/1_login.jpg" alt="设置步骤1">
-  <img src="../../assets/mobile/ios/2_login.jpg" alt="设置步骤2">
+  <img src="../../assets/mobile/ios/ios_26.3_setting_main_menu.PNG" alt="主界面" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/ios/ios_26.3_setting_icloud.PNG" alt="iCloud设置" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/ios/ios_26.3_setting_sign_out.PNG" alt="媒体与购买项目" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
 </div>
+<!-- markdownlint-enable MD033 -->
 
 == 方法二
 
@@ -68,19 +73,21 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 3. 滑动至页面底部，选择“退出登录”。
 4. 使用美区账号和密码登录。
 
+<!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
   <img src="../../assets/mobile/ios/3_login.jpg" alt="App Store步骤1">
   <img src="../../assets/mobile/ios/4_login.jpg" alt="App Store步骤2">
   <img src="../../assets/mobile/ios/5_login.jpg" alt="App Store步骤3">
 </div>
+<!-- markdownlint-enable MD033 -->
 
 :::
 
 ## 下载Element应用
 
-使用美区账号登录后，在App Store中搜索并下载Element应用。确认应用图标如下：
+使用美区账号登录后，在App Store中搜索并下载ElementX应用。确认应用图标如下：
 
-![](../../assets/element-logo-mark-primary.svg)
+![ElementX](../../assets/element-x-logo-mark-primary.webp){style="width: 100px; margin-top:16px; margin-bottom: 16px"}
 
 ::: warning
 
@@ -88,10 +95,10 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 
 :::
 
-## 使用NerChat!
+## 使用NerChat
 
 打开Element应用，在“你的对话发生的地方”一栏填写“chat.neboer.site”，然后进行登录。
 
 ### 注意事项
 
-初次登录时可能会遇到网络连接问题，建议在网络畅通的环境中进行登录（如出国旅游时）。成功登录后，应用不需要频繁更新，通知设置可在系统设置中调整。通过美区账号下载的软件在退出美区账号后依然可正常使用，但在登录其他账号时无法进行更新。
+初次登录时可能会遇到网络连接问题，建议在网络畅通的环境中进行登录（如出国旅游时）。成功登录后，应用不需要频繁更新，通知设置可在系统设置中调整。通过美区账号下载的软件在退出美区账号后依然可正常使用，但在更新时可能需要重新输入美区账户的密码。
