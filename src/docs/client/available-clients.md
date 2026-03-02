@@ -18,13 +18,13 @@ NerChat!的Web端仅支持桌面浏览器使用，移动端访问NerChat!请使�
 
 |使用环境|推荐客户端|官方客户端|备选客户端|
 |:--:|:--:|:--:|:--:|
-|Web|[chat.neboer.site](https://chat.neboer.site)|[app.element.io](https://app.element.io)|[app.element.io](https://app.element.io)|
-|Windows/Linux/MacOS|[Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|[Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|[Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|
-|Android|ElementX|ElementX|[Nelement](nelement)|
-|IOS|[ElementX](https://apps.apple.com/us/app/element-x-secure-chat-call/id1631335820)|[ElementX](https://matrix.org/docs/projects/client/element-ios)|[Element Classic](https://apps.apple.com/us/app/element-classic/id1083446067)|
+|Web|[chat.neboer.site](https://chat.neboer.site)|[app.element.io](https://app.element.io)|-|
+|Windows/Linux/MacOS|[Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|[Element Desktop](https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe)|-|
+|Android|[ElementX](https://f-droid.org/packages/io.element.android.x/)|[ElementX](https://play.google.com/store/apps/details?id=io.element.android.x)|[Nelement](nelement)|
+|IOS|[ElementX](https://apps.apple.com/us/app/element-x-secure-chat-call/id1631335820)|[ElementX](https://apps.apple.com/us/app/element-x-secure-chat-call/id1631335820)|[Element Classic](https://apps.apple.com/us/app/element-classic/id1083446067)|
 
 在桌面设备上，Element Desktop的消息推送是最快的。
 
-在移动设备上，推送是通过FCM和APN来实现的，相对来说比较省电，但是推送可能存在延迟。在没有Google Play服务的Android设备上可能无法正常收到推送，这是大陆网络导致的问题，目前暂时没有解决方法。如果您非常在意消息推送的即时性，可以打开Element/Nelement客户端的常驻后台选项，同时在电池优化里忽略它们。
+在移动设备上，推送是通过FCM和APN来实现的，相对来说比较省电，但是推送可能存在延迟。在没有Google Play服务的Android设备上可能无法正常收到推送，这是大陆网络导致的问题，目前暂时没有解决方法。如果您非常在意消息推送的即时性，可以打开ElementX/Nelement客户端的常驻后台选项，同时在电池优化里忽略它们。
 
 详细的操作方法可以参考您使用APP的设置选项。

@@ -83,7 +83,7 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 
 :::
 
-## 下载Element应用
+## 下载ElementX应用
 
 使用美区账号登录后，在App Store中搜索并下载ElementX应用。确认应用图标如下：
 
@@ -95,7 +95,9 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 
 :::
 
-## 使用NerChat
+<!-- markdownlint-disable MD026 -->
+## 使用NerChat!
+<!-- markdownlint-enable MD026 -->
 
 打开Element应用，在“你的对话发生的地方”一栏填写“chat.neboer.site”，然后进行登录。
 
