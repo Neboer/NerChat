@@ -39,6 +39,10 @@ export default [
                         "link": "/docs/client/ios-instructions"
                     },
                     {
+                        "text": "ElementX",
+                        "link": "/docs/client/elementx"
+                    },
+                    {
                         "text": "Nelement（过时的）",
                         "link": "/docs/client/nelement"
                     }
