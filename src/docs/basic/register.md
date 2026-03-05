@@ -28,21 +28,23 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 1. 在您登录NerChat!的官方网站**chat.neboer.site**之后，需要等待页面加载完成，之后点击“创建账户”按钮。
 
-![](../../assets/register_page.png)
+![创建账户](../../assets/register_page.png)
 
-2. 然后在窗口中输入您想要注册的用户名和密码，注意要符合要求。在输入完一遍密码后还需要再输入一次以确认。
+1. 然后在窗口中输入您想要注册的用户名和密码，注意要符合要求。在输入完一遍密码后还需要再输入一次以确认。
 
-3. 完成注册流程后，会自动进行首次登录。
+2. 完成注册流程后，会自动进行首次登录。
 
 == Mobile
 
 对于安卓手机，推荐您使用NerChat!推荐的客户端[Nelement](../client/nelement)。如果您希望使用其他兼容Matrix协议的客户端如Element，请参考[第三方客户端登录指南](../client/other-clients)。
 
+<!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
   <img src="../../assets/mobile/open.png" alt="">
   <img src="../../assets/mobile/ask.png" alt="">
   <img src="../../assets/mobile/input_register.png" alt="">
 </div>
+<!-- markdownlint-enable MD033 -->
 
 1. 在你安装好客户端软件后，打开软件。等待软件加载一段时间之后，进入功能介绍页面。如果您是新用户，请选择“创建账户”。
 
@@ -50,14 +52,16 @@ NerChat!对密码有着严格的要求，所以请勿给自己设置一个极弱
 
 3. 在弹出的“请输入用户名和密码”的窗口里输入您想要注册的用户名和密码，然后点击“下一个”。
 
+<!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
   <img src="../../assets/mobile/congrautulation.png" alt="">
   <img src="../../assets/mobile/share_data.png" alt="">
 </div>
+<!-- markdownlint-enable MD033 -->
 
-4. 当您注册完成后，会弹出“恭喜，您的用户已创建”提示。您可以选择“个性化”来编辑您的头像、昵称等信息，也可以选择“带我回家”来直接显示软件的主页。
+1. 当您注册完成后，会弹出“恭喜，您的用户已创建”提示。您可以选择“个性化”来编辑您的头像、昵称等信息，也可以选择“带我回家”来直接显示软件的主页。
 
-5. 在“帮助改进Nelement”界面中，选择“不是现在”。因为大陆用户无法直接发送统计信息到element官方。
+2. 在“帮助改进Nelement”界面中，选择“不是现在”。因为大陆用户无法直接发送统计信息到element官方。
 
 :::
 

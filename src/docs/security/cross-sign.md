@@ -88,6 +88,7 @@ graph TD
 未来，Bob添加了新设备Bob's Device 3，并与Bob's Device 1互相信任，此时Bob's Device 3和Alice's Device 2的聊天也可以通过Bob's Device 2和Alice's Device 1建立的信任关系而间接互相信任。
 
 以下示意图说明了这一点，图中实线部分是已经确定建立的信任关系，虚线部分表达了Bob's Device 3和Alice's Device 2建立的对话可以直接通过实线部分的信任链信任。这就是交叉信任的原理和目的。
+
 ```mermaid
 graph TD
     subgraph Alice
@@ -124,24 +125,22 @@ graph TD
 
     1. 点击聊天信息按钮，在菜单里点击“验证”。
 
-        ![](../../assets/web/start_verify.png)
-    
+        ![验证](../../assets/web/start_verify.png)
+
     2. 点击“开始验证”开始两个人的验证过程。您此时最好已经做好和对方用另一种方式聊天的准备。
 
-        <div style="display:flex; justify-content:row; flex-wrap: wrap">
-          <img src="../../assets/web/auth_request.png" alt="">
-          <img src="../../assets/web/auth_request_chat.png" alt="">
-        </div>
+        ![验证请求](../../assets/web/auth_request.png)
+        ![验证请求](../../assets/web/auth_request_chat.png)
 
         您可以“接受”弹出的“已请求验证”通知，也可以点击聊天记录里出现的“想要验证”消息的“接受“按钮来接受验证，两种方法是一样的。
 
     3. 两人中的任何一方都可以主动点击“通过表情符号验证”按钮发起验证。
 
-        ![](../../assets/web/auth_via_emoji.png)
-    
+        ![通过表情符号验证](../../assets/web/auth_via_emoji.png)
+
     4. 通过可靠渠道比对二人生成的emoji表情序列，看看他们是否相同。如果相同，则说明会话安全，没有中间人，验证通过，可以用这个临时建立的可信加密通道交换公钥了。如果不同……放心不可能不同的。NerChat!绝对安全，同时我们对您的加密聊天内容完全不感兴趣，不会进行中间人攻击，您永远可以信任我们的服务器。
 
-        ![](../../assets/web/emoji_compare.png)
+        ![对比表情符号](../../assets/web/emoji_compare.png)
 
     5. 两人均点击“他们匹配”之后，整个验证流程就结束了。
 
@@ -151,10 +150,12 @@ graph TD
 
     1. 点击聊天信息按钮，在菜单里点击对方的头像，在对方的信息页面里点击“x个会话”，展开设备列表。选择一个灰色或红色的设备来开始验证。
 
+        <!--markdownlint-disable MD033 -->
         <div style="display:flex; justify-content:row; flex-wrap: wrap">
           <img src="../../assets/web/start_device_verify.png" alt="">
           <img src="../../assets/web/choose_device.png" alt="">
         </div>
+        <!--markdownlint-enable MD033 -->
 
     2. 在弹出的对话中选择“以文本形式验证”或“以emoji形式验证”二者的原理相同，不过比起emoji，文本在互联网上的传输更加容易一些。
 
@@ -164,53 +165,58 @@ graph TD
 
 1. 在聊天列表中，打开与一个人的聊天对话窗口，点击顶部头像栏，打开聊天信息窗口。
 
-    ![](../../assets/mobile/1_chat.jpg)
-    
+    ![聊天窗口](../../assets/mobile/1_chat.jpg)
 
 2. 下拉菜单，找到“2人”选项，点击查看房间的全部成员。
 
-    ![](../../assets/mobile/2_chat_details.jpg)
+    ![聊天详情](../../assets/mobile/2_chat_details.jpg)
 
 3. 在成员中点击你想要验证的人，打开他的个人信息详情页面。
 
+    <!--markdownlint-disable MD033-->
     <div style="display:flex; justify-content:row; flex-wrap: wrap">
         <img src="../../assets/mobile/3_room_members.jpg" alt="">
         <img src="../../assets/mobile/4_user_details.jpg" alt="">
     </div>
+    <!--markdownlint-enable MD033-->
 
 4. 点击“验证”按钮，开始你们之间的验证流程。
 
-    ![](../../assets/mobile/5_start_verify.jpg)
+    ![请求验证](../../assets/mobile/5_start_verify.jpg)
 
     此时，另一个人会在聊天栏里看到验证请求，同时还会收到消息推送。
 
-    ![](../../assets/mobile/o1_received_verify_request.jpg)
+    ![接受验证](../../assets/mobile/o1_received_verify_request.jpg)
 
     另一个人点击“接受”。
 
 5. 选择一种验证方式，这里选择emoji方法。当然您也可以点击二维码验证方法，去拍摄另一人设备上出现的二维码。
 
-    ![](../../assets/mobile/o2_choose_verify_method.jpg)
+    ![选择验证方式](../../assets/mobile/o2_choose_verify_method.jpg)
 
     点击emoji方法之后，会弹出一些emoji图标，请在一个受信任的环境中和对方比对你们设备上的emoji符号是否一致。
-    
+
+    <!--markdownlint-disable MD033-->
     <div style="display:flex; justify-content:row; flex-wrap: wrap">
         <img src="../../assets/mobile/6_emoji_verify.jpg" alt="">
         <img src="../../assets/mobile/o3_emoji.jpg" alt="">
     </div>
+    <!--markdownlint-enable MD033-->
 
 6. 如果emoji序列相同，则说明会话安全，没有中间人，验证通过，可以用这个临时建立的可信加密通道交换公钥了。如果不同……放心不可能不同的。NerChat!绝对安全，同时我们对您的加密聊天内容完全不感兴趣，不会进行中间人攻击，您永远可以信任我们的服务器。
 
     当emoji验证完成之后，点击“匹配”，完成验证过程。
 
-    ![](../../assets/mobile/7_verify_complete_shield.jpg)
+    ![验证完毕](../../assets/mobile/7_verify_complete_shield.jpg)
 
 7. 验证完成之后，您可以看到对方的设备图标已经变成了绿色的盾牌，说明对方的现在的设备公钥包含了您自己的签名，是完全可以信任的。现在，一个可靠的加密聊天通道已经建立，你们可以进行完全可信的安全加密聊天过程了。
 
+    <!--markdownlint-disable MD033-->
     <div style="display:flex; justify-content:row; flex-wrap: wrap">
         <img src="../../assets/mobile/8_user_details_verified.jpg" alt="">
         <img src="../../assets/mobile/9_room_members_verified.jpg" alt="">
     </div>
+    <!--markdownlint-enable MD033-->
 
 :::
 

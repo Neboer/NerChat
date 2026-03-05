@@ -20,7 +20,7 @@ NerChat!并不承诺会永久保留您的聊天消息历史记录，甚至我们
 
 头像->隐私安全->安全备份->从备份恢复
 
-![](../../assets/web/recover_from_backup.png)
+![从备份恢复](../../assets/web/recover_from_backup.png)
 
 == Mobile
 
@@ -53,4 +53,3 @@ Web端和移动端的密钥库是通用的。
 :::
 
 导入的过程就是选择“导入密钥”就可以，需要提供在导出密钥时提供的密码。
-
