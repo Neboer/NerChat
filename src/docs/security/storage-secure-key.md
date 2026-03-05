@@ -23,7 +23,7 @@ xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
    NerChat!的维护团队与没有实际尝试过LTO存储，请根据自身存储需求选择合适的存储介质，关于更多LTO磁带机和磁带的使用请参考[知乎 - 个人如何玩转 LTO 磁带机](https://zhuanlan.zhihu.com/p/692565835)。
    :::
 
-### 其他注意事项
+## 其他注意事项
 
 1、**定期备份**：即使采用了上述安全介质，也应定期备份安全密钥，并将备份存储在多个地点，以防止单一存储介质的损坏或丢失。
 

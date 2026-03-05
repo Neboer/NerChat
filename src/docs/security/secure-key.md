@@ -68,49 +68,49 @@ graph TD
 
 1. 点击头像，打开设置选项。
 
-![加密备份设置](../../assets/web/secure_backup_keys.png)
+    ![加密备份设置](../../assets/web/secure_backup_keys.png)
 
-1. 在打开的设置界面中，选择“隐私安全”，然后在右侧的“安全备份”下点击“设置”按钮。
+2. 在打开的设置界面中，选择“隐私安全”，然后在右侧的“安全备份”下点击“设置”按钮。
 
-![设置安全备份](../../assets/web/choose_secure_backup.png)
+    ![设置安全备份](../../assets/web/choose_secure_backup.png)
 
-1. 弹出的菜单会询问您要如何保存密钥。
+3. 弹出的菜单会询问您要如何保存密钥。
     - 如果选择“生成一个安全密钥”，客户端会直接给您生成一个密钥文件供您使用。
     - 如果选择“使用一个安全密码”，客户端会基于您提供的密码来生成这个密钥文件。
 
     两种方法都可以，没有孰优孰劣之分。使用密码导出密钥更加方便，但直接生成密钥则更加安全。理论上来说，两种方法都可以有效的保护您的加密消息。
     因此NerChat!更推荐用户使用一个自己可以记住的、足够长度的密码来保存密钥，这个密码被称为==安全短语== 。
 
-![保存你的安全密钥](../../assets/web/download_encryption_key.png)
+    ![保存你的安全密钥](../../assets/web/download_encryption_key.png)
 
-1. 在弹出的菜单里选择下载密钥或复制密钥到一个空文件中，把生成的密钥保存起来，然后点击继续，完成整个流程。
+4. 在弹出的菜单里选择下载密钥或复制密钥到一个空文件中，把生成的密钥保存起来，然后点击继续，完成整个流程。
 
 == Mobile
 
 1. 在移动端注册并首次登录后，点击用户头像打开设置。
 
-<!--markdownlint-disable MD033-->
-<div style="display:flex; justify-content:row; flex-wrap: wrap">
-  <img src="../../assets/mobile/open_settings.png" alt="">
-  <img src="../../assets/mobile/settings.png" alt="">
-  <img src="../../assets/mobile/output_secret.png" alt="">
-</div>
-<!--markdownlint-enable MD033-->
+    <!--markdownlint-disable MD033-->
+    <div style="display:flex; justify-content:row; flex-wrap: wrap">
+    <img src="../../assets/mobile/open_settings.png" alt="">
+    <img src="../../assets/mobile/settings.png" alt="">
+    <img src="../../assets/mobile/output_secret.png" alt="">
+    </div>
+    <!--markdownlint-enable MD033-->
 
-1. 在设置中找到“安全与隐私”，点击。
+2. 在设置中找到“安全与隐私”，点击。
 
-2. 找到“安全备份”选项组，点击“在此设备上设置”。
+3. 找到“安全备份”选项组，点击“在此设备上设置”。
 
-![设置安全备份](../../assets/mobile/choose_key_type.png)
+    ![设置安全备份](../../assets/mobile/choose_key_type.png)
 
-1. 如果你确实是首次在此设备上登录，那么“安全备份”会直接弹出。弹出的菜单会询问您要如何保存密钥。
+4. 如果你确实是首次在此设备上登录，那么“安全备份”会直接弹出。弹出的菜单会询问您要如何保存密钥。
     - 如果选择“生成一个安全密钥”，客户端会直接给您生成一个密钥文件供您使用。
     - 如果选择“使用一个安全密码”，客户端会基于您提供的密码来生成这个密钥文件。
 
     两种方法都可以，没有孰优孰劣之分。使用密码导出密钥更加方便，但直接生成密钥则更加安全。理论上来说，两种方法都可以有效的保护您的加密消息。
     因此NerChat!更推荐用户使用一个自己可以记住的、足够长度的密码来保存密钥，这样就不必在反复切换设备的过程中反复验证了，直接输入密码就可以。
 
-2. 当你完成保存之后，会出现一个“继续”按钮。点击此按钮结束密钥备份操作。
+5. 当你完成保存之后，会出现一个“继续”按钮。点击此按钮结束密钥备份操作。
 
 ![保存你的安全密钥](../../assets/mobile/download_encryption_key.png)
 
@@ -200,21 +200,21 @@ graph TD
 
     1. 点击“使用恢复口令词组或密钥”按钮，在弹出的对话框中输入自己的==安全短语==。或者如果您没有使用安全短语来保存密钥，您可以上传自己的安全密钥，或粘贴其中的内容。两种模式的切换可以通过点击“使用恢复密钥”和返回键来实现。
 
-    <!--markdownlint-disable MD033-->
-    <div style="display:flex; justify-content:row; flex-wrap: wrap">
-        <img src="../../assets/mobile/require_safe_password.jpg" alt="">
-        <img src="../../assets/mobile/require_safe_key.jpg" alt="">
-    </div>
-    <!--markdownlint-ensable MD033-->
+        <!--markdownlint-disable MD033-->
+        <div style="display:flex; justify-content:row; flex-wrap: wrap">
+            <img src="../../assets/mobile/require_safe_password.jpg" alt="">
+            <img src="../../assets/mobile/require_safe_key.jpg" alt="">
+        </div>
+        <!--markdownlint-ensable MD033-->
 
-    1. 客户端会开始计算密码，如果密码正确，那么客户端会提示“认证成功”。点击“完成”结束验证过程。
+    2. 客户端会开始计算密码，如果密码正确，那么客户端会提示“认证成功”。点击“完成”结束验证过程。
 
-    <!--markdownlint-disable MD033-->
-    <div style="display:flex; justify-content:row; flex-wrap: wrap">
-        <img src="../../assets/mobile/calculating_password.jpg" alt="">
-        <img src="../../assets/mobile/complete_auth.jpg" alt="">
-    </div>
-    <!--markdownlint-enable MD033-->
+        <!--markdownlint-disable MD033-->
+        <div style="display:flex; justify-content:row; flex-wrap: wrap">
+            <img src="../../assets/mobile/calculating_password.jpg" alt="">
+            <img src="../../assets/mobile/complete_auth.jpg" alt="">
+        </div>
+        <!--markdownlint-enable MD033-->
 
     ::: info
 
