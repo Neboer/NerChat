@@ -1,9 +1,6 @@
 # Nelement
 
-
-<!-- <img src="./nelement_icon.png" style="max-height: 100px; margin-top:16px"/> -->
-
-![](../../assets/nerchat/nelement_icon.png)
+![Nelement Icon](../../assets/nerchat/nelement_icon.png){style="max-height: 100px; margin-top:16px"}
 
 ## 软件概述
 

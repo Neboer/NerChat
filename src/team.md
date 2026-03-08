@@ -7,6 +7,7 @@ head:
   - ['meta', { property: 'og:url', content: 'https://www.neboer.site/nerchat/' }]
   - ['meta', { property: 'og:type', content: 'website' }]
 ---
+<!-- markdownlint-disable MD033 MD041 -->
 <script setup>
 import {
   VPTeamPage,

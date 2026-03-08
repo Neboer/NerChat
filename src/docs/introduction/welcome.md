@@ -1,6 +1,6 @@
 # 基本介绍
 
-<img src="/nerchat_logo.svg" style="width: 100px; margin-top:16px"/>
+![NerChat logo](/nerchat_logo.svg){style="width: 100px; margin-top:16px"}
 
 欢迎加入NerChat!
 
@@ -18,7 +18,7 @@ NerChat!目前由UntilSoftware团队代为运营，有问题欢迎直接在群�
 
 ::: warning
 
-NerChat!的官方站点[chat.neboer.site](https://chat.neboer.site)**不支持**移动设备，请不要用手机浏览器直接访问此站点，而是需要通过APP进行连接。
+NerChat!的官方站点[chat.neboer.site](https://chat.neboer.site)**不支持**移动设备，请不要用手机浏览器直接访问此站点，请考虑通过APP进行连接。
 
 :::
 
@@ -30,14 +30,14 @@ NerChat!的官方站点[chat.neboer.site](https://chat.neboer.site)**不支持**
 
 ::: tabs
 
-==Web
+==Desktop/Web
 
-网页端的指南，这包括了包括chat.neboer.site在内的所有Element web实例网站，同时也包括Element Desktop等多个桌面端应用。
+桌面端的指南，这包括了包括chat.neboer.site在内的Element web实例网站及Element Desktop应用。
 
-注意，桌面端和网页端在使用体验上几乎没有不同，所以除非有特殊说明，否则二者的教程完全可以通用。
+Element Web和Element Desktop在使用体验上几乎没有不同，所以除非有特殊说明，否则二者的教程完全可以通用。
 
 ==Mobile
 
-移动端的指南，这包括了Element Android、[Nelement](../client/nelement)、Element IOS等常用的移动端Element客户端，Nelement是推荐的移动客户端。
+移动端的指南，这包括了ElementX、[Nelement](../client/nelement)、Element Classic等常用的移动端Element客户端，ElementX是推荐的移动客户端。
 
 :::

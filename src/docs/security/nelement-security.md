@@ -14,23 +14,19 @@ Nelement主要修改了Element Android的四处代码：
 
     参考这个[commit](https://github.com/Neboer/Nelement/commit/30857e2f)的这个[文件修改](https://github.com/Neboer/Nelement/commit/30857e2f#diff-5db79790a9dbb104c9d1687b291b21b55bc9ae1736d6a83251e1de6a012911bf)。
 
-
 2. Nelement修改了Element Android的图标、包名和应用名，与原版软件做出了重要区分，并且可以和原软件共存。
 
     对图标和应用名的修改请参考同一个[commit](https://github.com/Neboer/Nelement/commit/30857e2f)（与上一个相同）的其余所有修改。
 
     对包名的修改请参考这个[commit](https://github.com/Neboer/Nelement/commit/b5a5a4e8)中的这个[文件修改](https://github.com/Neboer/Nelement/commit/b5a5a4e8#diff-7d90e090118cb3b19ed7934b93c3b7ce8235f64f4fe186d2ea3f83fee00bf03e)
 
-
 3. Nelement修改了Element Android的构建流程，直接构建Fdroid版本，而不再编译Google Play的预编译版本，因为Nelement不会发布到Google Play商店，同时也避免了无Google Play框架的国产手机在使用中出现问题。
 
     这个修改主要发生在这个[commit](https://github.com/Neboer/Nelement/commit/afc7636f)，这里删除了Element Android中不必要的测试/发布等CI过程，只保留Fdroid Release版本的构建代码。
 
-
 4. Nelement修改了Element Android中配置的默认jitsi会议服务器地址为我们在国内搭建的jitsi服务，让用户可以享受高品质、低延迟的语音通话体验。
 
     参考这个[commit](https://github.com/Neboer/Nelement/commit/5efdb741)。
-
 
 我们还对Nelement做了一些其他的适配性小修改，比如修改google-services.json中的包名、修改manifest文件中注册的，以及使用Neboer自己的密钥对Nelement进行签名、修改Element的版本号等等。
 

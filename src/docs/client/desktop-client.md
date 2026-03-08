@@ -3,9 +3,9 @@
 <!-- <img src="./nelemer_icon.png" style="max-height: 100px; margin-top:16px"/> -->
 NerChat!的桌面端使用和Element官方相似的安装方法。你可以在中国大陆直接访问Element官方网站，下载官方客户端，并简单的修改一下配置文件，就可以默认直连NerChat!了。
 
-## 桌面端指南
+## 安装指南
 
-1. 前往Element软件的[下载页](https://element.io/get-started#download)
+1. [下载Element Desktop](https://element.io/download)
 2. 选择适合您操作系统的版本，并点击直接下载。
 3. 下载、运行，对Linux用户请使用下面的包管理说明，按提示安装到系统中。
 4. 此时不要打开软件——如果您不能访问Matrix主站的话，软件会报错。请先按指导添加配置文件到系统中，再打开：
@@ -34,10 +34,10 @@ NerChat!的桌面端使用和Element官方相似的安装方法。你可以在�
 }
 ```
 
-| 操作系统 | 文件位置  |
-| :----:  | :--------: |
-| Windows | %APPDATA%\Element\config.json |
-|Linux    |$XDG_CONFIG_HOME/Element/config.json 或 ~/.config/Element/config.json|
+|操作系统|文件位置|
+|:--:|:--:|
+|Windows|%APPDATA%\Element\config.json|
+|Linux|$XDG_CONFIG_HOME/Element/config.json 或 ~/.config/Element/config.json|
 |MacOS|~/Library/Application Support/Element/config.json|
 
-配置放好后，请重新启动软件，就可以默认连接到NerChat!主站了。
+配置放好后，请重新启动软件，就可以默认连接到NerChat!了。
