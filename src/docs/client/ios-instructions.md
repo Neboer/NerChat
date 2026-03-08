@@ -58,9 +58,9 @@ IOS系统里安装软件并不容易。我们希望通过这个教程，给出�
 
 <!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
-  <img src="../../assets/mobile/ios/ios_26.3_setting_main_menu.PNG" alt="主界面" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
-  <img src="../../assets/mobile/ios/ios_26.3_setting_icloud.PNG" alt="iCloud设置" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
-  <img src="../../assets/mobile/ios/ios_26.3_setting_sign_out.PNG" alt="媒体与购买项目" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/ios/ios_26.3_setting_main_menu.png" alt="主界面" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/ios/ios_26.3_setting_icloud.png" alt="iCloud设置" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/ios/ios_26.3_setting_sign_out.png" alt="媒体与购买项目" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
 </div>
 <!-- markdownlint-enable MD033 -->
 

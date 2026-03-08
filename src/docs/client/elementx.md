@@ -4,9 +4,9 @@
 
 <!-- markdownlint-disable MD033 -->
 <div style="display:flex; justify-content:row; flex-wrap: wrap">
-  <img src="../../assets/mobile/element_x_welcome.PNG" alt="主界面" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
-  <img src="../../assets/mobile/element_x_login_server_1.PNG" alt="即将登录" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
-  <img src="../../assets/mobile/element_x_login_server_2.PNG" alt="手动设置登录服务器" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/element_x_welcome.png" alt="主界面" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/element_x_login_server_1.png" alt="即将登录" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
+  <img src="../../assets/mobile/element_x_login_server_2.png" alt="手动设置登录服务器" style="width: 200px; margin-top:16px; margin-bottom: 16px"/>
 </div>
 <!-- markdownlint-enable MD033 -->
 
