@@ -3,7 +3,7 @@ layout: page
 head:
   - ['meta', { property: 'og:title', content: 'NerChat!——开源IM' }]
   - ['meta', { property: 'og:description', content: 'NerChat!由UntilSoftware团队负责开发维护。' }]
-  - ['meta', { property: 'og:image', content: 'http://www.neboer.site/nerchat/wide_nerchat_logo.svg' }]
+  - ['meta', { property: 'og:image', content: 'https://www.neboer.site/nerchat/wide_nerchat_logo.svg' }]
   - ['meta', { property: 'og:url', content: 'https://www.neboer.site/nerchat/' }]
   - ['meta', { property: 'og:type', content: 'website' }]
 ---
