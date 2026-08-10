@@ -1,0 +1,8 @@
+.git
+.github
+.vitepress/cache
+.vitepress/dist
+.vscode
+node_modules
+__pycache__
+*.pyc
