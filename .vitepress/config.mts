@@ -30,7 +30,7 @@ export default withMermaid({
       { text: '首页', link: '/' },
       { text: '文档', link: '/docs/', activeMatch: '^/docs' },
       { text: '关于', link: '/team' },
-      { text: '状态', link: 'https://status.neboer.site/status/nerchat-services' },
+      { text: '状态', link: 'https://nerchat-status.neboer.site/' },
     ],
     sidebar: {
       '/docs': docs_sidebar
