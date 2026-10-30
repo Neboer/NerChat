@@ -40,7 +40,7 @@ let deployment;
 for (let attempt = 0; attempt < 3; attempt++) {
     const result = spawnSync('npx', ['--yes', '--registry=https://registry.npmjs.org', 'edgeone@1.6.47', 'makers', 'deploy', directory,
         '--name', projectName, '--env', environment, '--site', 'china', '--skip-ai-gateway-sync', '--json',
-    ], { env: { ...process.env, EDGEONE_PAGES_API_TOKEN: token }, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+    ], { env: { ...process.env, EDGEONE_PAGES_API_TOKEN: token, EDGEONE_PAGES_API_REGION: 'china' }, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
     const output = (result.stdout ?? '') + (result.stderr ?? '');
     console.log(output.replaceAll(token, '[REDACTED]'));
     if (result.status === 0) {
