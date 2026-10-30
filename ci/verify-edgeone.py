@@ -5,26 +5,37 @@ import urllib.request
 import urllib.error
 import urllib.parse
 import re
+import time
+import http.cookiejar
 
 IS_DOCS = True
 OUTPUT = Path('.vitepress/dist')
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs):
         return None
-opener = urllib.request.build_opener(NoRedirect())
+opener = urllib.request.build_opener(NoRedirect(), urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 if sys.argv[1] in ['preview', 'production']:
     url = json.loads(Path('.deploy/' + sys.argv[1] + '.json').read_text())['url']
 else:
     url = sys.argv[1]
 parts = urllib.parse.urlsplit(url)
 base = parts.scheme + '://' + parts.netloc
+def open_url(target):
+    for attempt in range(3):
+        try:
+            return opener.open(target, timeout=20)
+        except urllib.error.HTTPError as response:
+            return response
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 2:
+                raise
+            time.sleep(attempt + 1)
 if parts.query:
-    opener.open(url, timeout=60).close()
+    response = open_url(url)
+    assert response.status == 200, ("Temporary access URL", response.status)
+    response.close()
 def get(path):
-    try:
-        return opener.open(base + path, timeout=60)
-    except urllib.error.HTTPError as response:
-        return response
+    return open_url(base + path)
 for path in (['/', '/team', '/team.html', '/docs/', '/docs/basic/login', '/docs/basic/login.html', '/favicon_logo/site.webmanifest', '/sitemap.xml'] if IS_DOCS else ['/']):
     response = get(path)
     assert response.status == 200, (path, response.status)
