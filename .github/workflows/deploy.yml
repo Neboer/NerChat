@@ -1,0 +1,51 @@
+name: Deploy to EdgeOne
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: edgeone-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Install locked dependencies
+        run: |
+          npm install --global yarn@1.22.22 --force --registry=https://registry.npmjs.org
+          yarn install --frozen-lockfile --non-interactive --registry https://registry.npmjs.org
+      - name: Build and validate static output
+        run: |
+          yarn docs:build
+          yarn prepare:edgeone
+          npx --yes --registry=https://registry.npmjs.org edgeone@1.6.47 validate
+      - name: Deploy preview
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+        run: node ci/deploy-edgeone.mjs preview
+      - name: Verify preview routes and cache headers
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: python3 ci/verify-edgeone.py preview
+      - name: Deploy production
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+        run: node ci/deploy-edgeone.mjs production
+      - name: Verify production
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: python3 ci/verify-edgeone.py production

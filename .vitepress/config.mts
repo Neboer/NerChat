@@ -11,10 +11,10 @@ export default withMermaid({
   title: "NerChat!——开源IM",
   description: "NerChat! 是一个部署在国内的即时聊天Matrix服务器。",
   head: [
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/nerchat/favicon_logo/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/nerchat/favicon_logo/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/nerchat/favicon_logo/favicon-16x16.png' }],
-    ['link', { rel: 'manifest', href: '/nerchat/favicon_logo/site.webmanifest' }]
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon_logo/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon_logo/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon_logo/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/favicon_logo/site.webmanifest' }]
   ],
   lang: 'zh-CN',
   markdown: {
@@ -71,8 +71,9 @@ export default withMermaid({
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
   },
-  base: "/nerchat/",
+  base: "/",
+  cleanUrls: true,
   sitemap: {
-    hostname: 'https://www.neboer.site/nerchat/'
+    hostname: 'https://nerchat-doc.neboer.site/'
   }
 })

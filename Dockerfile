@@ -13,6 +13,6 @@ RUN yarn docs:build
 FROM nginxinc/nginx-unprivileged:1.28-alpine
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /app/.vitepress/dist/ /usr/share/nginx/html/nerchat/
+COPY --from=builder /app/.vitepress/dist/ /usr/share/nginx/html/
 
 EXPOSE 8080
