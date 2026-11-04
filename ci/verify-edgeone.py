@@ -32,6 +32,11 @@ def open_url(target):
             time.sleep(attempt + 1)
 if parts.query:
     response = open_url(url)
+    # The preview gate sets cookies and redirects to the clean URL.
+    if response.status == 302:
+        assert response.headers.get('Location') == base + '/', 'Unexpected preview authentication redirect'
+        response.close()
+        response = open_url(base + '/')
     assert response.status == 200, ("Temporary access URL", response.status)
     response.close()
 def get(path):

@@ -1,3 +1,4 @@
+// Limit HTTPS navigation redirects to pages; static assets bypass Functions.
 export function middleware({ request, next }) {
     const url = new URL(request.url);
     if (url.protocol === 'http:') {
@@ -9,3 +10,5 @@ export function middleware({ request, next }) {
     }
     return next();
 }
+
+export const config = { matcher: ['/', '/index.html', '/team', '/team.html', '/docs', '/docs/:path*'] };
