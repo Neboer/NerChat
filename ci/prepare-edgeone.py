@@ -19,7 +19,7 @@ else:
 metadata = {'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()}
 (OUTPUT / 'deployment.json').write_text(json.dumps(metadata) + '\n')
 shutil.copyfile('edgeone.json', OUTPUT / 'edgeone.json')
-shutil.copyfile('middleware.js', OUTPUT / 'middleware.js')
+assert not (OUTPUT / 'middleware.js').exists(), 'Global middleware must not consume static request quota'
 files = [p for p in OUTPUT.rglob('*') if p.is_file()]
 assert len(files) <= 20000, 'EdgeOne file limit exceeded'
 assert max(p.stat().st_size for p in files) <= 25 * 1024 * 1024, 'EdgeOne single-file limit exceeded'

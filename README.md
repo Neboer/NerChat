@@ -4,4 +4,4 @@
 
 欢迎各位将您的见解编写成文档，提交到我们的文档库中！
 
-EdgeOne Functions usage: middleware is restricted to page navigation routes. CSS, JavaScript, images, fonts, and other static files bypass it. HTTP page navigation still redirects to HTTPS (308); direct HTTP asset requests are served as static files. Do not reintroduce a global middleware matcher. The standard TEO native HTTPS API accepted settings but did not enforce them on these Pages domains during live verification.
+EdgeOne Functions usage: static pages and assets bypass Functions completely. Global HTTPS middleware was removed with the operator's approval: direct HTTP URLs can return static content; HTTPS remains available. TEO native HTTPS settings and middleware matcher were accepted but did not enforce the expected behavior in live verification on these Pages domains. Do not reintroduce global middleware to implement HTTPS redirects.
